@@ -1,6 +1,6 @@
 <?php
 /**
- * HEADER - HOME
+ * HEADER - PÁGINAS DE CONTEÚDO
  */
 ?>
 
@@ -16,38 +16,37 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-
-    <div class="announcement-bar bg-02 d-flex justify-center align-center" id="announcement-bar">
-            <div class="container">
-                <div class="d-flex justify-announ align-center">
-                    <p id="anb_l" class="text-black">
-                        <a class="a_annbar" target="_blank" href="https://www.google.com/search?q=RUA+MATEUS+GROU%2C+159+-+PINHEIROS&oq=RUA+MATEUS+GROU%2C+159+-+PINHEIROS&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHNjgxajBqMagCALACAA&sourceid=chrome&ie=UTF-8#">
-                            RUA MATEUS GROU, 159 - PINHEIROS
-                        </a>
-                    </p>
-                    <p id="anb_m" class="text-black d-none-mobile">SEG A SEX 7H - 22H • SÁB E DOM 7H - 21H • FERIADOS 7H - 21h</p>
-                    <p id="anb_r"><a href="<?php site_url();?>/contato" class="text-black d-none-mobile">CONTATO</a></p>
-                </div>
-            </div>
+<!-- ANBAR -->
+<div class="announcement-bar bg-02 d-flex justify-center align-center" id="announcement-bar">
+    <div class="container">
+        <div class="d-flex justify-announ align-center">
+            <p class="text-black">RUA MATEUS GROU, 159 - PINHEIROS</p>
+            <p class="text-black d-none-mobile">SEGUNDA A SEXTA 7H - 22H • SÁBADO E DOMINGO 7H - 21H • FERIADOS 7H -
+                21h</p>
+            <p><a href="" class="text-black d-none-mobile">CONTATO</a></p>
+        </div>
     </div>
+</div>
 
+<!-- MENU -->
     <div class="logo-effect">
+        <!-- HEADER -->
         <header class="bg-01" id="header">
             <div class="menu-desktop container">
                 <div class=" d-flex justify-between align-center">
                     <nav>
                         <ul>
-                            <li><a href="institucional.html" class="text-white">Sobre Nós</a></li>
-                            <li><a href="#quitanda-escolas" class="text-white">Quitanda Escolas</a></li>
-                            <li><a href="#quitanda-empresas" class="text-white">Quitanda Empresas</a></li>
+                            <li><a href="institucional.html" class="text-white">sobre nós</a></li>
+                            <li><a href="institucional.html" class="text-white">quitanda escolas</a></li>
+                            <li><a href="institucional.html" class="text-white">quitanda empresas</a></li>
                         </ul>
                     </nav>
 
                     <nav>
                         <ul>
-                            <li><a href="#minha-quitanda" class="text-white">Minha Quitanda</a></li>
-                            <li><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/quitanda-pinheiros/efe332d7-74fa-48a8-949d-ac1a45ab4738" class="text-white">Encomendas</a></li>
-                            <li><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/quitanda-pinheiros/efe332d7-74fa-48a8-949d-ac1a45ab4738" class="text-white">Compre Online</a><span class="yellow-underline"></span>
+                            <li><a href="institucional.html" class="text-white">minha quitanda</a></li>
+                            <li><a href="institucional.html" class="text-white">encomendas</a></li>
+                            <li><a href="institucional.html" class="text-white">compre online</a><span class="yellow-underline"></span>
                             </li>
                         </ul>
                     </nav>
@@ -151,6 +150,7 @@
             </div>
         </header>
 
+        <!-- LOGO
         <div class="logo-absolute" id="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="390" height="390" viewBox="0 0 53 61" fill="none"
                 id="logosvg">
@@ -159,5 +159,5 @@
                     fill="white" />
             </svg>
         </div>
-        <span id="ancoragem"></span>
+        <span id="ancoragem"></span> -->
     </div>
