@@ -13,3 +13,10 @@ License URI: https://quitanda.com/
 Text Domain: wp-quitanda-1-0-0
 Este tema foi desenvolvido para Flv Comercio de Hortifruto LTDA sob o CNPJ 08.772.290/0001-01 e Raizes Participacoes Ltda sob o CNPJ 10.390.109/0001-36.
 */
+
+* {
+    margin: auto;
+}
+body{
+    background-color: lightslategray;
+}
