@@ -19,7 +19,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
 
     <div class="announcement-bar bg-02 d-flex justify-center align-center" id="announcement-bar">
             <div class="container">
@@ -35,27 +34,31 @@
             </div>
     </div>
 
-    <?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
+    
 
     <div class="logo-effect">
+        
         <header class="bg-01" id="header">
             <div class="menu-desktop container">
                 <div class=" d-flex justify-between align-center">
                     <nav>
-                        <ul>
-                            <li><a href="institucional.html" class="text-white">Sobre Nós</a></li>
-                            <li><a href="#quitanda-escolas" class="text-white">Quitanda Escolas</a></li>
-                            <li><a href="#quitanda-empresas" class="text-white">Quitanda Empresas</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu( array( 
+                                'theme_location' => 'menuHeaderEsq', 
+                                'container_class' => 'text-white'
+                                )
+                            ); 
+                        ?>
                     </nav>
 
                     <nav>
-                        <ul>
-                            <li><a href="#minha-quitanda" class="text-white">Minha Quitanda</a></li>
-                            <li><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/quitanda-pinheiros/efe332d7-74fa-48a8-949d-ac1a45ab4738" class="text-white">Encomendas</a></li>
-                            <li><a href="https://www.ifood.com.br/delivery/sao-paulo-sp/quitanda-pinheiros/efe332d7-74fa-48a8-949d-ac1a45ab4738" class="text-white">Compre Online</a><span class="yellow-underline"></span>
-                            </li>
-                        </ul>
+                        <?php
+                            wp_nav_menu( array( 
+                                'theme_location' => 'menuHeaderDir', 
+                                'container_class' => 'text-white'
+                                )
+                            ); 
+                        ?>
                     </nav>
                 </div>
             </div>

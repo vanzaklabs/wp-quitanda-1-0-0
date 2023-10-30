@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<!-- INDEX.PHP -->
 
 <main class="conteudo-main">
     <section class="conteudo conteudo-wpTheLoop">

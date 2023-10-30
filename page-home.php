@@ -3,7 +3,6 @@
 Template Name: Home
 */
 ?>
-<h1>PAGE HOME</h1>
 
 <?php get_header('home'); ?>
 
@@ -326,4 +325,4 @@ Template Name: Home
     </main>
 </body>
 
-<?php get_footer(); ?>
+<?php get_footer('home'); ?>

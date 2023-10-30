@@ -2,29 +2,35 @@
 
 
 // Enqueue Normalize.css
-function add_normalize_CSS() {
+function script_normalize() {
 
     wp_enqueue_style( 'css-normalize', "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");
 
 }
+add_action( 'wp_enqueue_scripts', 'script_normalize' );
 
 
-// Hook the widget initiation and run our function
+// Hook Widget
 add_action( 'widgets_init', 'add_Widget_Support' );
-
 
 
 // wp_enqueue_style( 'style', get_stylesheet_uri() );
 function scripts_quitanda() {
 
-    wp_enqueue_style( 'css-style', get_stylesheet_uri() . 'style.css', false, '1.1', 'all');
-	wp_enqueue_style( 'css-assets-style', get_stylesheet_uri() . '/assets/css/style.css', array(), '1.1', 'all' );
+    // // This will point to style.css in child theme
+    // wp_enqueue_style( 'my_child_styles', get_stylesheet_directory_uri().'/style.css' );
+
+    // // This will point to style.css in the parent theme
+    // wp_enqueue_style( 'my_parent_styles', get_template_directory_uri().'/style.css' );
+
+    // wp_enqueue_style( 'css-style', get_template_directory_uri().'/style.css' );
+    wp_enqueue_style( 'css-style', get_template_directory_uri() . '/style.css', false, '1.1', 'all');
+	// wp_enqueue_style( 'css-assets-style', get_template_directory_uri() . '/assets/css/style.css', array(), '1.1', 'all' );
 
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), 1.1, true );
-    wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/script.js', array( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script-mobile.js', array( 'jquery' ), 1.1, true);
 
 }
-
 add_action( 'wp_enqueue_scripts', 'scripts_quitanda' );
 
 
@@ -44,10 +50,10 @@ add_action( 'after_setup_theme', 'theme_setup' );
 function add_Main_Nav() {
     // register_nav_menu('header-menu',__( 'Header Menu' ));
     register_nav_menus( array(
-        'menuHeaderEsq'   => __( 'Header PC Direita', 'menuHE' ),
+        'menuHeaderEsq'   => __( 'Header PC Esquerda', 'menuHE' ),
         'menuHeaderDir' => __( 'Header PC Direita', 'menuHD' ),
         'menuHeaderMob'   => __( 'Header Mobile', 'menuHM' ),
-        'menuFooterMain'   => __( 'Footer', 'menuFM' )
+        'menuFooterMain'   => __( 'Footer Principal', 'menuFM' )
     ) );
   }
   // Hook to the init action hook, run our navigation menu function
@@ -63,28 +69,28 @@ function content_receitas() {
 				'singular_name' => __('Receita', 'textdomain'),
                 'add_new'                  => __( 'Nova Receita', 'textdomain' ),
                 'add_new_item'             => __( 'Adicionar Nova Receita', 'textdomain' ),
-                'edit_item'                => __( 'Editar Receitas', 'textdomain' ),
-                'new_item'                 => __( 'New Receitas', 'textdomain' ),
-                'view_item'                => __( 'View Receitas', 'textdomain' ),
-                'view_items'               => __( 'View Receitass', 'textdomain' ),
-                'search_items'             => __( 'Search Receitass', 'textdomain' ),
-                'not_found'                => __( 'No Receitass found.', 'textdomain' ),
-                'not_found_in_trash'       => __( 'No Receitass found in Trash.', 'textdomain' ),
-                'parent_item_colon'        => __( 'Parent Receitass:', 'textdomain' ),
-                'all_items'                => __( 'All Receitass', 'textdomain' ),
-                'archives'                 => __( 'Receitas Archives', 'textdomain' ),
-                'attributes'               => __( 'Receitas Attributes', 'textdomain' ),
-                'insert_into_item'         => __( 'Insert into Receitas', 'textdomain' ),
-                'uploaded_to_this_item'    => __( 'Uploaded to this Receitas', 'textdomain' ),
+                'edit_item'                => __( 'Editar Receita', 'textdomain' ),
+                'new_item'                 => __( 'Novas Receita', 'textdomain' ),
+                'view_item'                => __( 'Ver', 'textdomain' ),
+                'view_items'               => __( 'Ver Receitas', 'textdomain' ),
+                'search_items'             => __( 'Buscar Receitas', 'textdomain' ),
+                'not_found'                => __( 'Nada encontrado aqui!', 'textdomain' ),
+                'not_found_in_trash'       => __( 'Nenhuma receita no lixo.', 'textdomain' ),
+                'parent_item_colon'        => __( 'Parent Receitas:', 'textdomain' ),
+                'all_items'                => __( 'All Receitas', 'textdomain' ),
+                'archives'                 => __( 'Receitas no arquivo', 'textdomain' ),
+                'attributes'               => __( 'Atributos das Receitas', 'textdomain' ),
+                'insert_into_item'         => __( 'Inserir em Receitas', 'textdomain' ),
+                'uploaded_to_this_item'    => __( 'Uploaded para esta Receita', 'textdomain' ),
                 'featured_image'           => __( 'Featured Image', 'textdomain' ),
                 'set_featured_image'       => __( 'Set featured image', 'textdomain' ),
                 'remove_featured_image'    => __( 'Remove featured image', 'textdomain' ),
                 'use_featured_image'       => __( 'Use as featured image', 'textdomain' ),
-                'menu_name'                => __( 'Receitass', 'textdomain' ),
+                'menu_name'                => __( 'Receitas', 'textdomain' ),
                 'filter_items_list'        => __( 'Filter Receitas list', 'textdomain' ),
                 'filter_by_date'           => __( 'Filter by date', 'textdomain' ),
-                'items_list_navigation'    => __( 'Receitass list navigation', 'textdomain' ),
-                'items_list'               => __( 'Receitass list', 'textdomain' ),
+                'items_list_navigation'    => __( 'Receitas list navigation', 'textdomain' ),
+                'items_list'               => __( 'Receitas list', 'textdomain' ),
                 'item_published'           => __( 'Receitas published.', 'textdomain' ),
                 'item_published_privately' => __( 'Receitas published privately.', 'textdomain' ),
                 'item_reverted_to_draft'   => __( 'Receitas reverted to draft.', 'textdomain' ),
@@ -115,6 +121,20 @@ function add_widget_Support() {
                     'after_title'   => '</h2>',
     ) );
 }
+
+
+// Remove Admin Bar Global
+add_filter('show_admin_bar', '__return_false');
+
+
+// Remove Admin Bar !admin]
+add_action('after_setup_theme', 'remove_admin_bar');
+        function remove_admin_bar() {
+        if (!current_user_can('administrator') && !is_admin()) {
+        show_admin_bar(false);
+    }
+}
+
 
 
 ?>

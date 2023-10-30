@@ -40,21 +40,21 @@ ul {
 
 @font-face {
     font-family: 'Kepler Std Light';
-    src: url('../fonts/Kepler-Std-Light.otf') format('opentype');
+    src: url('fonts/Kepler-Std-Light.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Agipo Mono Regular';
-    src: url('../fonts/Agipo-Mono-Regular.otf') format('opentype');
+    src: url('fonts/Agipo-Mono-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'League Gothic';
-    src: url('../fonts/Leagu-Gothic-Regular.ttf') format('opentype');
+    src: url('fonts/Leagu-Gothic-Regular.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -123,6 +123,9 @@ img {
 /* TEXTOS */
 
 .text-white {
+    color: var(--text-color-01);
+}
+.text-white a, .text-white a:visited {
     color: var(--text-color-01);
 }
 
@@ -318,6 +321,7 @@ nav ul {
     gap: 50px;
 }
 
+
 nav li {
     list-style: none;
     display: flex;
@@ -325,6 +329,10 @@ nav li {
     justify-content: start;
     align-items: start;
     width: max-content;
+}
+
+nav li {
+    min-width: fit-content;
 }
 
 nav ul li a {
@@ -1317,7 +1325,7 @@ span.Marquee3 {
 
 
 #tab1img{
-    background-image: url(../images/gab-quitanda-14.webp);
+    background-image: url(images/gab-quitanda-14.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1326,7 +1334,7 @@ span.Marquee3 {
     margin-right: 10%;
 }
 #tab2img{
-    background-image: url(../images/pic-2.webp);
+    background-image: url(images/pic-2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1335,7 +1343,7 @@ span.Marquee3 {
     margin-right: 10%;
 }
 #tab3img{
-    background-image: url(../images/10_FLV3_Quitanda_Shoot290120210483-2.webp);
+    background-image: url(images/10_FLV3_Quitanda_Shoot290120210483-2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1345,7 +1353,7 @@ span.Marquee3 {
 }
 
 #textandimg1{
-    background-image: url(../images/img-8748.webp);
+    background-image: url(images/img-8748.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1353,7 +1361,7 @@ span.Marquee3 {
     height:100%;
 }
 #textandimg2{
-    background-image: url(../images/12-2022-06-quitanda0974-green-min.webp);
+    background-image: url(images/12-2022-06-quitanda0974-green-min.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1361,7 +1369,7 @@ span.Marquee3 {
     height:100%;
 }
 #textandimg3{
-    background-image: url(../images/9-2022-06-quitanda0917-green-min.webp);
+    background-image: url(images/9-2022-06-quitanda0917-green-min.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1387,7 +1395,7 @@ span.Marquee3 {
 
 
     #textandimg1{
-        background-image: url(../images/img-8748.webp);
+        background-image: url(images/img-8748.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1395,7 +1403,7 @@ span.Marquee3 {
         height: 100%;
     }
     #textandimg2{
-        background-image: url(../images/12-2022-06-quitanda0974-green-min.webp);
+        background-image: url(images/12-2022-06-quitanda0974-green-min.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1403,7 +1411,7 @@ span.Marquee3 {
         height: 100%;
     }
     #textandimg3{
-        background-image: url(../images/9-2022-06-quitanda0917-green-min.webp);
+        background-image: url(images/9-2022-06-quitanda0917-green-min.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
