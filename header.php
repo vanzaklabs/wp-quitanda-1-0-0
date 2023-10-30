@@ -21,59 +21,49 @@
 <body <?php body_class(); ?>>
 
     <div class="announcement-bar bg-02 d-flex justify-center align-center" id="announcement-bar">
-            <div class="container">
-                <div class="d-flex justify-announ align-center">
-                    <p id="anb_l" class="text-black">
-                        <a class="a_annbar" target="_blank" href="https://www.google.com/search?q=RUA+MATEUS+GROU%2C+159+-+PINHEIROS&oq=RUA+MATEUS+GROU%2C+159+-+PINHEIROS&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHNjgxajBqMagCALACAA&sourceid=chrome&ie=UTF-8#">
-                            RUA MATEUS GROU, 159 - PINHEIROS
-                        </a>
-                    </p>
-                    <p id="anb_m" class="text-black d-none-mobile">SEG A SEX 7H - 22H • SÁB E DOM 7H - 21H • FERIADOS 7H - 21h</p>
-                    <p id="anb_r"><a href="<?php site_url();?>/contato" class="text-black d-none-mobile">CONTATO</a></p>
-                </div>
+        <div class="container">
+            <div class="d-flex justify-announ align-center">
+                <p class="text-black">RUA MATEUS GROU, 159 - PINHEIROS</p>
+                <p class="text-black d-none-mobile">SEGUNDA A SEXTA 7H - 22H • SÁBADO E DOMINGO 7H - 21H • FERIADOS 7H -
+                    21h</p>
+                    <div class="d-flex align-center" style="gap: 20px;">
+                        <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 21 20" fill="none">
+                            <path d="M19.7309 18.3109L16.0209 14.6309C17.461 12.8353 18.1584 10.5562 17.9697 8.2622C17.781 5.9682 16.7206 3.83368 15.0064 2.29754C13.2923 0.761407 11.0547 -0.0595894 8.75382 0.00337096C6.45294 0.0663314 4.26362 1.00846 2.63604 2.63604C1.00846 4.26362 0.0663314 6.45294 0.00337096 8.75382C-0.0595894 11.0547 0.761407 13.2923 2.29754 15.0064C3.83368 16.7206 5.9682 17.781 8.2622 17.9697C10.5562 18.1584 12.8353 17.461 14.6309 16.0209L18.3109 19.7009C18.4039 19.7946 18.5145 19.869 18.6363 19.9198C18.7582 19.9706 18.8889 19.9967 19.0209 19.9967C19.1529 19.9967 19.2836 19.9706 19.4055 19.9198C19.5273 19.869 19.6379 19.7946 19.7309 19.7009C19.9111 19.5144 20.0119 19.2652 20.0119 19.0059C20.0119 18.7466 19.9111 18.4974 19.7309 18.3109ZM9.0209 16.0209C7.63643 16.0209 6.28305 15.6104 5.13191 14.8412C3.98076 14.072 3.08356 12.9788 2.55374 11.6997C2.02393 10.4206 1.88531 9.01314 2.1554 7.65527C2.4255 6.2974 3.09219 5.05012 4.07115 4.07115C5.05012 3.09219 6.2974 2.4255 7.65527 2.1554C9.01314 1.88531 10.4206 2.02393 11.6997 2.55374C12.9788 3.08356 14.072 3.98076 14.8412 5.13191C15.6104 6.28305 16.0209 7.63643 16.0209 9.0209C16.0209 10.8774 15.2834 12.6579 13.9706 13.9706C12.6579 15.2834 10.8774 16.0209 9.0209 16.0209Z" fill="black"/>
+                          </svg></button>
+                        <p><a href="" class="text-black d-none-mobile">CONTATO</a></p>
+                    </div>
             </div>
+        </div>
     </div>
 
-    
-
-    <div class="logo-effect">
-        
         <header class="bg-01" id="header">
-            <div class="menu-desktop container">
-                <div class=" d-flex justify-between align-center">
-                    <nav>
-                        <?php
-                            wp_nav_menu( array( 
-                                'theme_location' => 'menuHeaderEsq', 
-                                'container_class' => 'text-white'
-                                )
-                            ); 
-                        ?>
-                    </nav>
-
-                    <div class="elemento-no-topo" id="logo">
-                        <a href="<?php echo esc_url(home_url( '/' )); ?>">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 53 61" fill="none"
-                            id="logosvg">
-                            <path
-                                d="M25.9141 45.2883C18.5561 44.5889 14.65 38.1008 14.65 23.4713C14.65 8.45819 18.1645 1.52693 26.1087 1.52693C34.3128 1.52693 38.35 8.52264 38.35 23.4713C38.35 35.8108 36.136 42.8081 31.5784 44.5889C31.2526 44.7154 30.2112 45.0973 29.3643 45.2246C30.3406 43.8887 31.3829 40.4537 31.3829 37.1476C31.3829 33.4572 30.0157 29.0053 25.0664 29.0053C22.0723 29.0053 19.9233 30.9762 19.9233 33.3935C19.9233 35.9374 21.6822 37.0195 24.0258 37.5908C26.3042 38.1637 27.7365 39.3103 27.7365 42.4254C27.7365 43.5712 27.0851 45.3512 27.0851 45.3512C26.6291 45.3512 26.3685 45.3512 25.9141 45.2883ZM12.0442 58.3273C10.0256 58.3273 8.85464 57.0558 8.85464 55.5925C8.85464 54.13 10.287 52.7933 13.1517 52.7933C16.3429 52.7933 20.1847 54.1929 20.8345 54.8947C20.8345 54.8947 18.1001 58.3273 12.0442 58.3273ZM28.4523 46.8144C29.8203 46.7516 30.8618 46.5598 31.9692 46.3696C41.8002 44.5252 53 37.4006 53 23.4076C53 8.26881 39.977 3.8147e-06 25.8482 3.8147e-06C11.7845 3.8147e-06 0 7.88688 0 23.4076C0 37.6544 12.5002 44.9072 23.5706 46.6879C24.7415 46.8781 25.3278 46.9417 26.4996 46.9417C26.4996 46.9417 26.1739 47.5146 25.9784 47.8974C25.7838 48.2777 25.1975 49.0416 25.1975 49.0416L23.3735 48.3414C19.4022 46.8781 16.8632 46.2415 12.5654 46.2415C7.09658 46.2415 2.92983 49.6765 2.92983 53.6224C2.92983 57.6295 6.18457 60.1733 11.1982 60.1733C14.8446 60.1733 18.2296 59.0927 21.1611 56.6754L22.3972 55.6561L24.0901 56.6102C28.3236 58.9638 31.1223 61 36.07 61C44.9255 61 49.0279 56.0389 52.544 49.1689C52.8697 48.5323 52.934 47.8974 52.544 47.7048C52.1531 47.5146 51.8926 47.7685 51.5017 48.405C49.8088 51.2679 44.9914 52.8561 41.1496 52.8561C36.5268 52.8561 33.6621 52.4758 29.3643 50.7595L26.695 49.6765C27.0851 49.1689 27.4108 48.7862 27.7365 48.2148C27.9979 47.7685 28.2577 47.3229 28.4523 46.8144Z"
-                                fill="white" />
-                        </svg>
-                        </a>
-                    </div>
-                    
-                    <nav>
-                        <?php
-                            wp_nav_menu( array( 
-                                'theme_location' => 'menuHeaderDir', 
-                                'container_class' => 'text-white'
-                                )
-                            ); 
-                        ?>
-                    </nav>
-
+        <div class="menu-desktop container">
+            <div class=" d-flex justify-between align-center">
+                <nav>
+                    <?php
+                                wp_nav_menu( array( 
+                                    'theme_location' => 'menuHeaderEsq', 
+                                    'container_class' => 'text-white'
+                                    )
+                                ); 
+                            ?>
+                </nav>
+                <div class="elemento-no-topo" id="logo">
+                    <a href="<?php echo esc_url(home_url( '/' )); ?>">
+                        <img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" alt="" style="width: 60px;">
+                    </a>
                 </div>
+                <nav>
+                    <?php
+                                wp_nav_menu( array( 
+                                    'theme_location' => 'menuHeaderDir', 
+                                    'container_class' => 'text-white'
+                                    )
+                                ); 
+                            ?>
+                </nav>
             </div>
+        </div>
 
 
             <div class="menu-mobile" id="menu-mobile">
@@ -93,7 +83,7 @@
                         <li><a href="institucional.html" class="text-white">quitanda empresas</a></li>
                         <li><a href="institucional.html" class="text-white">minha quitanda</a></li>
                         <li><a href="institucional.html" class="text-white">encomendas</a></li>
-                        <li><a href="institucional.html" class="text-white">compre online</a><span class="yellow-underline"></span></li>
+                        <li><a href="institucional.html" class="text-white">compre online</a></li>
                         <li>
                             <div class="text-white social-nav">
                                 <a href="#">
@@ -171,7 +161,3 @@
                 </nav>
             </div>
         </header>
-
-        
-        
-    </div>

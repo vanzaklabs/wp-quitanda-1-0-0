@@ -50,8 +50,8 @@ add_action( 'after_setup_theme', 'theme_setup' );
 function add_Main_Nav() {
     // register_nav_menu('header-menu',__( 'Header Menu' ));
     register_nav_menus( array(
-        'menuHeaderEsq'   => __( 'Header PC Esquerda', 'menuHE' ),
-        'menuHeaderDir' => __( 'Header PC Direita', 'menuHD' ),
+        'menuHeaderEsq'   => __( 'Header PC Esquerdo', 'menuHE' ),
+        'menuHeaderDir' => __( 'Header PC Direito', 'menuHD' ),
         'menuHeaderMob'   => __( 'Header Mobile', 'menuHM' ),
         'menuFooterMain'   => __( 'Footer Principal', 'menuFM' )
     ) );
@@ -62,7 +62,7 @@ function add_Main_Nav() {
 
 // CPT RECEITAS
 function content_receitas() {
-	register_post_type('conteudo_receitas',
+	register_post_type('receitas',
 		array(
 			'labels'      => array(
 				'name'          => __('Receitas', 'textdomain'),

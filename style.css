@@ -31,7 +31,6 @@ ul {
     --bg-02: #D2B467;
     --bg-03: #F0EEE4;
     --bg-04: #FFFFFF;
-
     --text-color-01: #fff;
     --text-color-02: #000;
     --text-color-03: #D2B467;
@@ -1245,7 +1244,8 @@ span.Marquee3 {
 }
 
 .plyr--video {
-    height: 80vh!important;
+    height: 78vh!important;
+    /* height: 80vh!important; */
 }
 
 .plyr__control:focus-visible {
