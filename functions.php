@@ -1,13 +1,30 @@
 <?php
 
+
+// Enqueue Normalize.css
+function add_normalize_CSS() {
+
+    wp_enqueue_style( 'css-normalize', "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");
+
+}
+
+
+// Hook the widget initiation and run our function
+add_action( 'widgets_init', 'add_Widget_Support' );
+
+
+
 // wp_enqueue_style( 'style', get_stylesheet_uri() );
 function scripts_quitanda() {
-    wp_enqueue_style( 'style', get_stylesheet_uri() . 'style.css', false, '1.1', 'all');
-	wp_enqueue_style( 'style', get_stylesheet_uri() . '/assets/css/style.css', array(), '1.1', 'all' );
+
+    wp_enqueue_style( 'css-style', get_stylesheet_uri() . 'style.css', false, '1.1', 'all');
+	wp_enqueue_style( 'css-assets-style', get_stylesheet_uri() . '/assets/css/style.css', array(), '1.1', 'all' );
 
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), 1.1, true );
     wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/script.js', array( 'jquery' ), 1.1, true);
+
 }
+
 add_action( 'wp_enqueue_scripts', 'scripts_quitanda' );
 
 
@@ -17,16 +34,24 @@ if ( ! function_exists( 'theme_setup' ) ) :
         add_filter('use_block_editor_for_post', '__return_false', 10);
 		add_theme_support( 'post-thumbnails' );
         add_theme_support('menus');
-		register_nav_menus( array(
-            'menuHeaderEsq'   => __( 'Header PC Direita', 'menuHE' ),
-            'menuHeaderDir' => __( 'Header PC Direita', 'menuHD' ),
-            'menuHeaderMob'   => __( 'Header Mobile', 'menuHM' ),
-            'menuFooterMain'   => __( 'Footer', 'menuFM' )
-        ) );
 		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'quote', 'image', 'video' ) );
 	}
 endif;
 add_action( 'after_setup_theme', 'theme_setup' );
+
+
+// Nav Menu
+function add_Main_Nav() {
+    // register_nav_menu('header-menu',__( 'Header Menu' ));
+    register_nav_menus( array(
+        'menuHeaderEsq'   => __( 'Header PC Direita', 'menuHE' ),
+        'menuHeaderDir' => __( 'Header PC Direita', 'menuHD' ),
+        'menuHeaderMob'   => __( 'Header Mobile', 'menuHM' ),
+        'menuFooterMain'   => __( 'Footer', 'menuFM' )
+    ) );
+  }
+  // Hook to the init action hook, run our navigation menu function
+  add_action( 'init', 'add_Main_Nav' );
 
 
 // CPT RECEITAS
@@ -77,6 +102,19 @@ function content_receitas() {
 );
 }
 add_action('init', 'content_receitas');
+
+
+// Register Sidebar 'sidebar'
+function add_widget_Support() {
+    register_sidebar( array(
+                    'name'          => 'BarraLateral',
+                    'id'            => 'sidebar_lateral',
+                    'before_widget' => '<div>',
+                    'after_widget'  => '</div>',
+                    'before_title'  => '<h2>',
+                    'after_title'   => '</h2>',
+    ) );
+}
 
 
 ?>

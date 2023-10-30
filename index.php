@@ -1,32 +1,31 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
+<?php get_header(); ?>
 
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title><?php post_title(); ?></title>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+<main class="conteudo-main">
+    <section class="conteudo conteudo-wpTheLoop">
 
-	<?php wp_head(); ?>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-</head>
+                <article>
+                    <h2>
+                        <a
+                            href="<?php the_permalink(); ?>"
+                            title="<?php the_title_attribute(); ?>">
+                            <?php the_title(); ?>
+                        </a>
+                    </h2>
+                    Por: <?php the_author(); ?>
+                    <?php the_excerpt(); ?>
+                </article>
 
-<p>GET HEADER - HOME</p>
+        <?php endwhile; else : ?>
+            <article>
+                <p>Não há conteúdo para ser exibido aqui!</p>
+            </article>
+        <?php endif; ?>
 
-<?php get_header('home'); ?>
+    </section>
+</main>
 
-<body <?php body_class(); ?>>
-    <?php wp_body_open(); ?>
-    <main>
-
-        <p>THE CONTENT</p>
-
-        <?php the_content(); ?>
-
-    </main>
-</body>
-
-<p>GET FOOTER</p>
 
 <?php get_footer(); ?>

@@ -215,3 +215,9 @@
 <script>
 const player = new Plyr('#player');
 </script>
+
+
+<?php wp_footer(); ?>
+
+  </body>
+</html>
