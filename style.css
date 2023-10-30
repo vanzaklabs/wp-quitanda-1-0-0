@@ -1,6 +1,17 @@
+/*
+Theme Name: Quitanda 1.0
+Author: Vanzak Labs / Flávio Conca
+Author URI: http://www.vanzaklabs.com.br
+Description: Tema oficial para Quitanda.
+Version: 1.0.0
+*/
+
 * {
-    margin: auto;
+    box-sizing: border-box;
+
 }
+
 body {
-    background-color: lightgreen;
+    background-color: #1b1b1b;
+    font-family: Helvetica;
 }
