@@ -226,10 +226,12 @@ Template Name: Home
                 </video>
         </div>
     </section>
+
+
     <span  id="escolas"></span>
     <!-- IMG & TEXT -->
 
-    <section class="d-flex  align-center  gap7 mt-5 mb-5 flex-imgtext ">
+    <section id="quitanda-institucional" class="d-flex  align-center  gap7 mt-5 mb-5 flex-imgtext ">
 
         <div class="bg-04 imgandtext" >
             <div class="d-flex justify-center">

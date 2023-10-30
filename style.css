@@ -969,7 +969,9 @@ span.Marquee3 {
 /* FIM MARQUEE */
 
 /* IMG & TEXT */
-
+section#quitanda-institucional {
+    margin-top: 200px;
+}
 .flex-imgtext {
     flex-direction: column;
     justify-content: center;
