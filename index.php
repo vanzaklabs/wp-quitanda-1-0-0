@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php post_title(); ?></title>
-    <link rel="stylesheet" href="<?php get_stylesheet_uri(); ?>">
-</head>
-<body>
-    <?php get_header('home'); ?>
-    <main>
-        <?php the_content(); ?>
-    </main>
-    <?php get_footer(); ?>
 
-    <?php
-    
-    get_title();
-    echo get_theme_file_uri( 'images/logo.png' );
-    echo get_parent_theme_file_path( 'images/logo.png' );
-    ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title><?php post_title(); ?></title>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+
+	<?php wp_head(); ?>
+
+</head>
+
+<p>GET HEADER - HOME</p>
+
+<?php get_header('home'); ?>
+
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
+    <main>
+
+        <p>THE CONTENT</p>
+
+        <?php the_content(); ?>
+
+    </main>
+</body>
+
+<p>GET FOOTER</p>
+
+<?php get_footer(); ?>
