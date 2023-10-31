@@ -12,12 +12,11 @@
             background-size: cover;
             background-attachment: fixed;">
             '; ?>
-        </div>
-        <div id="capaTitulo">
-            <h1><?php the_title(); ?></h1>
+            <div id="capaTitulo">
+                <h1><?php the_title(); ?></h1>
+            </div>
         </div>
         <?php echo '</div>' ?>
-
     <?php else : ?>
         <?php echo '<h1>' . the_title() . '</h1>'; ?>
     <?php endif; ?>
