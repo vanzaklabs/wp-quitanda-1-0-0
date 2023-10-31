@@ -47,20 +47,16 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     }
     .capaConteudo {
         height: 600px;
-        /* display: flex; */
     }
     section#sec-wpTheLoop {
         min-height: 60vh;
         padding-top: 130px;
     }
 
-    h2 {
-        margin-bottom: 25px;
+    h2, div.text-p p {
+        margin-bottom: 50px;
     }
 
-    /* p {
-        margin-bottom: 50px;
-    } */
 </style>
 
 <?php get_footer(); ?>
