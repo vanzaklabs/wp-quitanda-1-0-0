@@ -1200,6 +1200,11 @@ section#quitanda-institucional {
     color: var(--text-color-02);
 }
 
+i {
+    font-size: 55px;
+    line-height: 65px;
+}
+
 .title-receitas {
     padding-top: 3rem;
     font-size: 4rem;

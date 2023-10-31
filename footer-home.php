@@ -166,8 +166,8 @@
 <!-- CORRIGIR CONFLITO -->
 <!-- <script src="<?php echo get_template_directory_uri() ?>/js/menuburguer.js"></script> -->
 
-<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-<script>  const player = new Plyr('#player');</script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"> </script>
+<script> const player = new Plyr('#player'); </script>
 
 <?php wp_footer(); ?>
 
