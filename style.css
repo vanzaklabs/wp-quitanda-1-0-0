@@ -321,6 +321,10 @@ nav ul {
     gap: 50px;
 }
 
+li {
+    list-style: circle;
+    list-style-position: inside;
+}
 
 nav li {
     list-style: none;
