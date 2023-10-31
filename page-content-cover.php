@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Capa + Texto
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- PAGE.PHP -->
@@ -72,7 +78,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     }
     section#sec-wpTheLoop {
         min-height: 60vh;
-        padding-top: 130px;
+        padding-top: 50px;
     }
 
     h1#h1Titulo {
