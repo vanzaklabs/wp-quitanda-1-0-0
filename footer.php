@@ -5,21 +5,27 @@
             <div class="logofooter">
                 <h2 class="title-footer text-white d-none-only-mobile">QUITANDA</h2>
                 <div class="menufooter1 d-flex flex-wrap d-none-only-mobile-flex">
-                    <nav>
-                        <ul class="text-white d-flex flex-column">
-                            <li><a href="#sobre-nos" class="text-white fonte-serifada">Política de privacidade</a></li>
-                            <li><a href="#escolas" class="text-white fonte-serifada">Política de privacidade</a></li>
-                            <li><a href="#empresas" class="text-white fonte-serifada">Política de privacidade</a></li>
-                        </ul>
+
+                    <nav id="footer_main">
+                        <?php
+                            wp_nav_menu( array( 
+                                'theme_location' => 'menuFM', 
+                                'container_class' => 'text-white'
+                                )
+                            ); 
+                        ?>
                     </nav>
 
-                    <nav>
-                        <ul class="text-white d-flex flex-column">
-                            <li><a href="institucional.html" class="text-white fonte-serifada">Política de privacidade</a></li>
-                            <li><a href="institucional.html" class="text-white fonte-serifada">Política de privacidade</a></li>
-                            <li><a href="institucional.html" class="text-white fonte-serifada">Política de privacidade</a></li>
-                        </ul>
+                    <nav id="footer_main">
+                        <?php
+                            wp_nav_menu( array( 
+                                'theme_location' => 'menuFP', 
+                                'container_class' => 'text-white'
+                                )
+                            ); 
+                        ?>
                     </nav>
+
                 </div>
             </div>
             <div class="sobrenos d-none-only-mobile">

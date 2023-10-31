@@ -53,6 +53,7 @@ function add_Main_Nav() {
         'menuHeaderEsq'   => __( 'Header PC Esquerdo', 'menuHE' ),
         'menuHeaderDir' => __( 'Header PC Direito', 'menuHD' ),
         'menuHeaderMob'   => __( 'Header Mobile', 'menuHM' ),
+        'menuFooterPoliticas'   => __( 'Footer Políticas', 'menuFP' ),
         'menuFooterMain'   => __( 'Footer Principal', 'menuFM' )
     ) );
   }

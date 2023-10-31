@@ -6,6 +6,7 @@ Description: Tema oficial para Quitanda.
 Version: 1.0.0
 */
 
+
 /* Gerais */
 * {
     margin: 0px;
@@ -18,8 +19,7 @@ html{
 }
 
 body {
-    font-size: 62.5%;
-    
+    font-size: 100%;
 }
 
 ul {
@@ -124,6 +124,7 @@ img {
 .text-white {
     color: var(--text-color-01);
 }
+#footer_main a, #footer_main a:visited,
 .text-white a, .text-white a:visited {
     color: var(--text-color-01);
 }
@@ -961,6 +962,7 @@ span.Marquee2 {
     display: flex;
 }
 
+
 span.Marquee3 {
     gap: 15px;
     display: flex;
@@ -1060,7 +1062,8 @@ section#quitanda-institucional {
 /* FOOTER */
 
 #footer nav ul {
-    display: flex;
+    /* display: flex; */
+    display: block;
     gap: 10px;
 }
 
@@ -1082,6 +1085,7 @@ section#quitanda-institucional {
     font-family: 'Agipo Mono Regular', monospace;
     line-height: 28.8px;
     letter-spacing: -0.75px;
+    margin-bottom: -20px;
 }
 
 .mb-5 {
@@ -1099,6 +1103,7 @@ section#quitanda-institucional {
 .text-copyright {
     font-size: .8rem;
     font-family: 'Agipo Mono Regular', monospace;
+    margin-bottom: 10px;
 }
 
 .d-none-desk {
