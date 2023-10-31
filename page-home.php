@@ -50,7 +50,9 @@ Template Name: Home
                 <!-- <button class="fonte-serifada tab text-black" style="opacity: .5;" id="btntab2">
                     encomendas<span class="yellow-underline" style="display: none;"></span>
                 </button> -->
-                <a href="#" class="fonte-serifada tab text-black" style="opacity: .5;" >
+                <a 
+                href="<?php echo esc_url(home_url( '/' )); ?>encomendas/"
+                class="fonte-serifada tab text-black" style="opacity: .5;" >
                     encomendas<span class="yellow-underline" style="display: none;"></span>
                 </a>
                 <button class="fonte-serifada tab text-black" style="opacity: .5;" id="btntab3">
