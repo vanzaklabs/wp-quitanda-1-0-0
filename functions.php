@@ -39,7 +39,7 @@ if ( ! function_exists( 'theme_setup' ) ) :
 	function theme_setup() {
         add_filter('use_block_editor_for_post', '__return_false', 10);
 		add_theme_support( 'post-thumbnails' );
-        add_theme_support('menus');
+        add_theme_support( 'menus' );
 		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'quote', 'image', 'video' ) );
 	}
 endif;
@@ -62,7 +62,9 @@ function add_Main_Nav() {
 
 
 // CPT RECEITAS
+
 function content_receitas() {
+    add_post_type_support( 'receitas', 'thumbnail' );  
 	register_post_type('receitas',
 		array(
 			'labels'      => array(
@@ -102,13 +104,15 @@ function content_receitas() {
 			),
             // 'menu_icon' => 'http://www.example.com/wp-content/uploads/2022/08/your-cpt-icon.png',
             
-            'menu_icon' => get_template_directory_uri() . "/assets/images/ico-receitas.png",
+            'menu_icon' => get_template_directory_uri() . "/images/ico-receitas.png",
             'public'      => true,
             'has_archive' => true,
 		),
 );
 }
 add_action('init', 'content_receitas');
+
+
 
 
 // Register Sidebar 'sidebar'
