@@ -55,12 +55,14 @@ Template Name: Home
                 class="fonte-serifada tab text-black" style="opacity: .5;" >
                     encomendas<span class="yellow-underline" style="display: none;"></span>
                 </a>
-                <button class="fonte-serifada tab text-black" style="opacity: .5;" id="btntab3">
+                <!-- <button class="fonte-serifada tab text-black" style="opacity: .5;" id="btntab3">
                     minha quitanda<span class="yellow-underline" style="display: none;"></span>
-                </button>
-                 <!-- <a href="#" class="fonte-serifada tab  text-black">
-                    compre online<span class="yellow-underline"></span>
-                </a> -->
+                </button> -->
+                 <a
+                 href="<?php echo esc_url(home_url( '/' )); ?>minha-quitanda/"
+                 class="fonte-serifada tab  text-black">
+                    minha quitanda<span class="yellow-underline"></span>
+                </a>
                 
                 <!-- <a href="#" class="fonte-serifada tab text-black" style="opacity: .5;">
                     minha quitanda<span class="yellow-underline" style="display: none;"></span>
