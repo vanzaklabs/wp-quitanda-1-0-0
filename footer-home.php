@@ -9,7 +9,7 @@
                     <nav id="footer_main">
                         <?php
                             wp_nav_menu( array( 
-                                'theme_location' => 'menuFM', 
+                                'theme_location' => 'menuFooterMain', 
                                 'container_class' => 'text-white'
                                 )
                             ); 
@@ -19,7 +19,7 @@
                     <nav id="footer_main">
                         <?php
                             wp_nav_menu( array( 
-                                'theme_location' => 'menuFP', 
+                                'theme_location' => 'menuFooterPoliticas', 
                                 'container_class' => 'text-white'
                                 )
                             ); 
