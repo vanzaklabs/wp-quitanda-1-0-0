@@ -1203,6 +1203,7 @@ section#quitanda-institucional {
 blockquote {
     font-size: 55px;
     line-height: 65px;
+    max-width: 1000px;
 }
 
 .title-receitas {
