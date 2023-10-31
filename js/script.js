@@ -33,7 +33,6 @@ window.onload = function () {
 
 
 // HEADER
-window.addEventListener('scroll', verificarPosicaoElemento);
 
 function verificarPosicaoElemento() {
    
@@ -61,6 +60,7 @@ function verificarPosicaoElemento() {
         elemento.classList.add('logo-absolute');
     }
 }
+window.addEventListener('scroll', verificarPosicaoElemento);
 
 
 
