@@ -2,16 +2,17 @@
 
 <!-- PAGE.PHP -->
 
-<div id="capa">
-    <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
 
-        <?php
-        echo '
-        <div class="capaConteudo"
-        style="background: url(' . $url . ');
-        background-size: cover;
-        background-attachment: fixed;">
-        '; ?>
+    <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
+        <div id="capa">
+            <?php
+            echo '
+            <div class="capaConteudo"
+            style="background: url(' . $url . ');
+            background-size: cover;
+            background-attachment: fixed;">
+            '; ?>
+        </div>
         <div id="capaTitulo">
             <h1><?php the_title(); ?></h1>
         </div>
@@ -20,7 +21,7 @@
     <?php else : ?>
         <?php echo '<h1>' . the_title() . '</h1>'; ?>
     <?php endif; ?>
-</div>
+
 
 <main
 id="page-main-content"
