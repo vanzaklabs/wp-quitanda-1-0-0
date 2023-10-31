@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: Texto
+Template Name: Content
 */
 ?>
 
 <?php get_header(); ?>
-<!-- PAGE.PHP -->
+<!-- CONTENT -->
         
 
 <main

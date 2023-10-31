@@ -6,53 +6,33 @@
 
 <?php get_header(); ?>
 
-<!-- PAGE.PHP -->
+<!-- RECEITAS -->
 
+<main>
 
-    <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
-
-        <div id="capaTituloH1">
-        <h1 id="h1Titulo"><?php the_title(); ?></h1>
+    <section id="conteudo-receitas">
+        <div>
+            <?php
+                $lista_posts = wp_get_post_categories(
+                    $post_id, array(
+                        'fields'=>'receitas',
+                        'order'=> 'DESC'
+                        )
+                    );
+                if ( $lista_posts ) {
+                    foreach ( $lista_posts as $post_receita ) {
+                        echo esc_html( $post_receita ) . '<br />';
+                    }
+                } ?>
         </div>
-        
-        <div id="capa">
-            <?php echo ' <div class="capaConteudo" style="background: url(' . $url . '); background-size: cover; background-attachment: fixed;"> '; ?>
-            <div id="capaTitulo">
-                
-            </div>
-            <?php echo '</div>' ?>
-        </div>
-    <?php endif; ?>
-
-<main
-id="page-main-content"
-class="d-flex justify-center align-center flex-column p-section bg-03 ">
-    <section id="sec-wpTheLoop" class="container">
-
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                
-                <article id="artigo-wpTheLoop">
-
-                    <div class="text-p">
-                        <?php the_content(); ?>
-                    </div>
-
-                </article>
-
-            <?php endwhile;
-
-        else : ?>
-        
-            <article>
-                <p>:-[ Ué... Não tem nada aqui! </p>
-            </article>
-
-        <?php endif; ?>
     </section>
+
 </main>
 
 <style>
-
+    #conteudo-receitas {
+        height: 70vh;
+    }
     div#capa {
         display: grid;
         padding-top: 130px;

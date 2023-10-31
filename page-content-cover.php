@@ -6,7 +6,7 @@ Template Name: Capa + Texto
 
 <?php get_header(); ?>
 
-<!-- PAGE.PHP -->
+<!-- COVER -->
 
 
     <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
