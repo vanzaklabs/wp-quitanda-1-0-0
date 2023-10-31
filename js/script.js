@@ -1,5 +1,3 @@
-console.log("JS START ✅ ");
-
 // Variáveis
 
 const logo = document.getElementById('logosvg');
@@ -20,7 +18,6 @@ const tab3 = document.getElementById('tab3');
 
 // ONLOAD
 
-console.log("JS CHECKPOINT 1 ✅ ");
 
 window.onload = function () {
   let posicao = ancoragem.getBoundingClientRect();
@@ -36,7 +33,6 @@ window.onload = function () {
 
 
 // HEADER
-console.log("JS CHECKPOINT 2 ✅ ");
 window.addEventListener('scroll', verificarPosicaoElemento);
 
 function verificarPosicaoElemento() {
@@ -69,7 +65,6 @@ function verificarPosicaoElemento() {
 
 
 // TABS
-console.log("JS CHECKPOINT 3 ✅ ");
 // Função para mostrar a tab1 e ocultar tab2 e tab3
 function showTab1() {
   tab1.classList.add('d-flex');
@@ -92,7 +87,6 @@ function showTab1() {
   btntab3.querySelector('.yellow-underline').style.display = 'none';
 }
 
-console.log("JS CHECKPOINT 4 ✅ ");
 // Função para mostrar a tab2 e ocultar tab1 e tab3
 function showTab2() {
   tab2.classList.add('d-flex');
@@ -115,7 +109,6 @@ function showTab2() {
   btntab3.querySelector('.yellow-underline').style.display = 'none';
 }
 
-console.log("JS CHECKPOINT 5 ✅ ");
 // Função para mostrar a tab3 e ocultar tab1 e tab2
 function showTab3() {
   tab3.classList.add('d-flex');
@@ -138,11 +131,6 @@ function showTab3() {
   btntab3.querySelector('.yellow-underline').style.display = 'block';
 }
 
-console.log("JS CHECKPOINT 6 ✅ ");
-
-
-
-console.log("JS CHECKPOINT 7 ✅ ");
 // Menu Burguer
 
 const checkbox = document.getElementById('checkbox-menu')
@@ -195,7 +183,6 @@ function enableScroll() {
 }
 // FIM Menu Burguer
 
-console.log("JS CHECKPOINT 8 ✅ ");
 // ScrollSmooth
 
 // const lenis = new Lenis()
@@ -212,12 +199,7 @@ console.log("JS CHECKPOINT 8 ✅ ");
 // requestAnimationFrame(raf)
 
 
-
-console.log("JS 🔴 ");
 // Adicionar eventos de clique aos botões
 // btntab1.onclick = showTab1;
 // btntab2.onclick = showTab2;
 // btntab3.onclick = showTab3;
-console.log("JS 🔴 ");
-
-console.log("JS END 🟢 ");
