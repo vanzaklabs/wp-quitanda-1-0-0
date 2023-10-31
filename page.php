@@ -54,7 +54,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     }
 
     h2, div.text-p p {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
 </style>
