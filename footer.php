@@ -6,10 +6,10 @@
                 <h2 class="title-footer text-white d-none-only-mobile">QUITANDA</h2>
                 <div class="menufooter1 d-flex flex-wrap d-none-only-mobile-flex">
 
-                    <nav id="footer_main">
+                <nav id="footer_main">
                         <?php
                             wp_nav_menu( array( 
-                                'theme_location' => 'menuFM', 
+                                'theme_location' => 'menuFooterMain', 
                                 'container_class' => 'text-white'
                                 )
                             ); 
@@ -19,7 +19,7 @@
                     <nav id="footer_main">
                         <?php
                             wp_nav_menu( array( 
-                                'theme_location' => 'menuFP', 
+                                'theme_location' => 'menuFooterPoliticas', 
                                 'container_class' => 'text-white'
                                 )
                             ); 
