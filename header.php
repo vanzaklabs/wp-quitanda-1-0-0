@@ -67,6 +67,12 @@
 
 
             <div class="menu-mobile" id="menu-mobile">
+                <div class="elemento-no-topo" id="logo">
+                    <a href="<?php echo esc_url(home_url( '/' )); ?>">
+                        <img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" alt="" style="width: 60px;">
+                    </a>
+                </div>
+
                 <div class="container nav-mob" id="navmobrepo">
                     <input type="checkbox" id="checkbox-menu" onclick="hamburguer()">
 
