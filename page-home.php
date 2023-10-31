@@ -44,7 +44,7 @@ Template Name: Home
     <section class="d-flex justify-center align-center flex-column p-section bg-03 " id="section-tabs">
         <div class="w-50">
             <div class="d-flex justify-between tabsnap ">
-                <button class="fonte-serifada tab  text-black" id="btntab1">
+                <button class="fonte-serifada tab text-black" id="btntab1">
                     compre online<span class="yellow-underline"></span>
                 </button>
                 <!-- <button class="fonte-serifada tab text-black" style="opacity: .5;" id="btntab2">
@@ -52,7 +52,7 @@ Template Name: Home
                 </button> -->
                 <a 
                 href="<?php echo esc_url(home_url( '/' )); ?>encomendas/"
-                class="fonte-serifada tab text-black" style="opacity: .5;" >
+                class="fonte-serifada tab text-black" style="opacity: .5;">
                     encomendas<span class="yellow-underline" style="display: none;"></span>
                 </a>
                 <!-- <button class="fonte-serifada tab text-black" style="opacity: .5;" id="btntab3">
@@ -60,7 +60,7 @@ Template Name: Home
                 </button> -->
                  <a
                  href="<?php echo esc_url(home_url( '/' )); ?>minha-quitanda/"
-                 class="fonte-serifada tab  text-black">
+                 class="fonte-serifada tab text-black" style="opacity: .5;">
                     minha quitanda<span class="yellow-underline"></span>
                 </a>
                 
