@@ -33,6 +33,14 @@ window.onload = function () {
     }
 }
 
+
+console.log("JS 🔴 ");
+// Adicionar eventos de clique aos botões
+btntab1.onclick = showTab1;
+// btntab2.onclick = showTab2;
+btntab3.onclick = showTab3;
+console.log("JS 🔴 ");
+
 // HEADER
 console.log("JS CHECKPOINT 2 ✅ ");
 window.addEventListener('scroll', verificarPosicaoElemento);
@@ -75,10 +83,10 @@ function showTab1() {
   btntab1.classList.add('fade-in');
   btntab1.style.opacity= '1';
   
-  tab2.classList.remove('d-flex');
-  tab2.classList.add('d-none');
-  btntab2.classList.add('fade-in');
-  btntab2.style.opacity= '0.5';
+  // tab2.classList.remove('d-flex');
+  // tab2.classList.add('d-none');
+  // btntab2.classList.add('fade-in');
+  // btntab2.style.opacity= '0.5';
   
   tab3.classList.remove('d-flex');
   tab3.classList.add('d-none');
@@ -126,10 +134,10 @@ function showTab3() {
   btntab1.classList.add('fade-in');
   btntab1.style.opacity= '0.5';
   
-  tab2.classList.remove('d-flex');
-  tab2.classList.add('d-none');
-  btntab2.classList.add('fade-in');
-  btntab2.style.opacity= '0.5';
+  // tab2.classList.remove('d-flex');
+  // tab2.classList.add('d-none');
+  // btntab2.classList.add('fade-in');
+  // btntab2.style.opacity= '0.5';
 
   btntab1.querySelector('.yellow-underline').style.display = 'none';
   btntab2.querySelector('.yellow-underline').style.display = 'none';
@@ -138,18 +146,13 @@ function showTab3() {
 
 console.log("JS CHECKPOINT 6 ✅ ");
 
-console.log("JS 🔴 ");
-// Adicionar eventos de clique aos botões
-btntab1.onclick = showTab1;
-btntab2.onclick = showTab2;
-btntab3.onclick = showTab3;
-console.log("JS 🔴 ");
+
 
 console.log("JS CHECKPOINT 7 ✅ ");
 // Menu Burguer
 
-let checkbox = document.getElementById('checkbox-menu')
-let menu = document.getElementById('nav-mob')
+const checkbox = document.getElementById('checkbox-menu')
+const menu = document.getElementById('nav-mob')
 
 function hamburguer() {
     let posicao = ancoragem.getBoundingClientRect();
