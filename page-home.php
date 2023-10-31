@@ -62,7 +62,9 @@ Template Name: Home
                     compre online<span class="yellow-underline"></span>
                 </a> -->
                 
-                <a href="#" class="fonte-serifada tab text-black" style="opacity: .5;">
+                <a 
+                href="<?php echo esc_url(home_url( '/' )); ?>minha-quitanda/"
+                class="fonte-serifada tab text-black" style="opacity: .5;">
                     minha quitanda<span class="yellow-underline" style="display: none;"></span>
                 </a>
             </div>
