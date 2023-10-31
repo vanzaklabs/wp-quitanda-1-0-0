@@ -18,6 +18,14 @@ const tab3 = document.getElementById('tab3');
 
 // ONLOAD
 
+let posicao = ancoragem.getBoundingClientRect();
+console.log(posicao);
+  logo.style.width = `${sizex}px`;
+  logo.style.height = `${sizex}px`;
+  if (posicao.top > 180) {
+    header.style.opacity = '0';
+    announ.style.opacity = '0';
+  }
 
 window.onload = function () {
   let posicao = ancoragem.getBoundingClientRect();
