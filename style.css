@@ -154,9 +154,9 @@ img {
 }
 .text-p > p > a,
 .text-p > p > a:active {
-    color: #000;
+    color: white;
+    background-color: black;
     font-weight: 400;
-    text-decoration: underline;
 }
 
 .title {
