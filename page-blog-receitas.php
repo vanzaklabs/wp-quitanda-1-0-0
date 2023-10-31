@@ -9,7 +9,7 @@
 <!-- RECEITAS -->
 
 <main>
-
+    
     <section id="conteudo-receitas">
         <div>
             <?php
