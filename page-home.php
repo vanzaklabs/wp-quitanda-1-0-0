@@ -63,8 +63,8 @@ Template Name: Home
             <div class="w-50  flex-column h-80" id="tab1img">
             </div>
             <div class="w-50 d-flex flex-column justify-start h-100 ">
-                <h2 class="tab-title">SOBRE <br><span class="fonte-serifada">nós </span>  <br></h2>
-                <p class="text-p">Nascemos em 2007 com um propósito claro: combinar refeições deliciosas a um compromisso com um mundo melhor. Para que isso seja possível, reunimos os melhores ingredientes, sabores, produtos exclusivos e fornecedores locais para nutrir a nossa comunidade de apaixonados pela boa comida. 
+                <h2 class="tab-title">QUITANDA NA  <br><span class="fonte-serifada">sua </span> CASA <br></h2>
+                <p class="text-p">Quer receber os nossos produtos no conforto do seu lar ou no trabalho? Nossa equipe fará suas compras com o máximo de cuidado e atenção aos detalhes, garantindo que chegará para você exatamente os itens que você escolheria se estivesse na loja. 
                 </p>
                 <div class="d-flex align-center" style="gap: 50px;">
                     <a
