@@ -279,7 +279,7 @@ Template Name: Home
         </div>
     
     
-        <div class="bg-04 imgandtext">
+        <!-- <div class="bg-04 imgandtext">
             <div class="d-flex justify-center">
                 <div class="container d-flex gapsection justify-between">
                     <div class="h-80 w-50 d-flex align-center">
@@ -296,12 +296,11 @@ Template Name: Home
                             href="<?php echo esc_url(home_url( '/' )); ?>minha-quitanda/" class="w-100 p-relative">
                             <div class="overlay"></div>
                             <div id="textandimg3"></div>
-                            <!-- <img src="images/9-2022-06-quitanda0917-green-min.webp" alt="" class="w-100"> -->
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         
        
