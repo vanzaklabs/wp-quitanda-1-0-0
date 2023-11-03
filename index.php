@@ -12,11 +12,23 @@
     </h1>
 
     <section class="conteudo conteudo-wpTheLoop">
-        
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    
+        <?php $query_args = array(
+                'post_type' => 'receitas',
+                'post_status' => 'publish',
+                'order' => 'DESC',
+                'orderby' => 'title',
+                'posts_per_page' => '10',
+            );
+
+            // The Query
+            $the_query = new WP_Query( $query_args ); 
+        ?>
+
+        <?php if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post(); ?>
             
             <article id="card-artigo" class="container">
-
+                
                 <?php if ( has_post_thumbnail() ) { ?>
 
                     <div id="capa-gradiente">
