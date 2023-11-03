@@ -31,23 +31,33 @@
                                 </h2>
                                 <?php the_excerpt(); ?>
                         </div>
-                    <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">
-                   
-                        
-                    </div> 
+
+                        <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
+                        </div> 
+
                     </div>
 
                 <?php } ?>
                 
             </article>
 
-            <?php endwhile; else : ?>
+            <?php endwhile; ?>
+
+                <div class="nav-previous alignleft">
+                    <?php next_posts_link( 'Older posts' ); ?>
+                </div>
+                <div class="nav-next alignright">
+                    <?php previous_posts_link( 'Newer posts' ); ?>
+                </div>
+
+            <?php else : ?>
                 <article>
                     <p>Não há conteúdo para ser exibido aqui!</p>
                 </article>
             <?php endif; ?>
 
     </section>
+
 </main>
 
 <style>
@@ -92,4 +102,5 @@
         z-index: 1;
     }
 </style>
+
 <?php get_footer(); ?>

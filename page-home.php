@@ -277,32 +277,6 @@ Template Name: Home
                 </div>
             </div>
         </div>
-    
-    
-        <!-- <div class="bg-04 imgandtext">
-            <div class="d-flex justify-center">
-                <div class="container d-flex gapsection justify-between">
-                    <div class="h-80 w-50 d-flex align-center">
-                        <div class="d-flex flex-column gap7">
-                            <h2 class="title">MINHA <br> QUITANDA</h2>
-                            <p class="text-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reprehenderit doloribus iusto magnam accusamus soluta repellat praesentium commodi ex voluptates nobis deleniti neque at minima, vitae adipisci, earum, odit perspiciatis! Architecto, veniam quisquam quae, iste possimus magnam aut nisi expedita rem nesciunt temporibus similique. Officiis ipsum aliquam laboriosam excepturi amet similique quasi, recusandae facilis possimus, quis, vitae optio quidem doloribus.</p>
-                            <a
-                                href="<?php echo esc_url(home_url( '/' )); ?>minha-quitanda/"
-                                class="text-p btn-tabs">SAIBA MAIS</a>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-end imgsectionimgtext">
-                        <a
-                            href="<?php echo esc_url(home_url( '/' )); ?>minha-quitanda/" class="w-100 p-relative">
-                            <div class="overlay"></div>
-                            <div id="textandimg3"></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        
        
     </section>
 

@@ -15,8 +15,8 @@
             <?php
                 $lista_posts = wp_get_post_categories( $post_id,
                         array(
-                        'fields'=>'receitas',
-                        'order'=> 'DESC'
+                        'fields'    => 'receitas',
+                        'order'     => 'DESC'
                         )
                     );
                 if ( $lista_posts ) {
