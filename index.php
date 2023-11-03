@@ -28,5 +28,11 @@
     </section>
 </main>
 
+<style>
+    main.conteudo-main {
+        padding-top: 170px;
+        background-color: var(--bg-03);
+    }
+</style>
 
 <?php get_footer(); ?>
