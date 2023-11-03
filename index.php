@@ -60,7 +60,7 @@
     span.subtitulo {
         font-size: 70%;
         display: block;
-        line-height: 25px;
+        line-height: 60px;
     }
     article.container {
         margin: auto;
