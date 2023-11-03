@@ -7,7 +7,7 @@
 
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-                <article>
+                <article class="container">
                     <h2>
                         <a
                             href="<?php the_permalink(); ?>"
@@ -32,6 +32,9 @@
     main.conteudo-main {
         padding-top: 170px;
         background-color: var(--bg-03);
+    }
+    article.container {
+        margin: auto;
     }
 </style>
 
