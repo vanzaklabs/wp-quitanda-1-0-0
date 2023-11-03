@@ -32,6 +32,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
                     </div>
 
                 </article>
+                
 
             <?php endwhile;
 
@@ -42,6 +43,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
             </article>
 
         <?php endif; ?>
+        
     </section>
 </main>
 
