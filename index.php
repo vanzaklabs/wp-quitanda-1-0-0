@@ -57,7 +57,7 @@
         margin: auto;
     }
     #capa-artigo{
-        background-image: url("<?php the_post_thumbnail_url( null, 'medium' ); ?>")
+        background-image: url("<?php the_post_thumbnail_url( null, 'medium' ); ?>");
     }
 </style>
 <?php get_footer(); ?>
