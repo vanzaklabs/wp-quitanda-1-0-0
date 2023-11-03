@@ -6,7 +6,7 @@
 
     <h1>
         <?php bloginfo('name');?>
-            <span class="subtitulo">
+            <span class="subtitulo fonte-serifada">
                 <?php wp_title(''); ?>
             </span>
     </h1>
@@ -58,8 +58,6 @@
         background-color: var(--bg-03);
     }
     span.subtitulo {
-        font-family: italic;
-        font-weight: lighter;
         font-size: 70%;
         display: block;
         line-height: 25px;
