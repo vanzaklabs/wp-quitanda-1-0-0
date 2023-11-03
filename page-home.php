@@ -68,9 +68,6 @@ Template Name: Home
                 </p>
                 <div class="d-flex align-center" style="gap: 50px;">
                     <a
-                    href="<?php echo esc_url(home_url( '/' )); ?>sobre-nos/"
-                    class="text-p btn-outline">SAIBA MAIS</a>
-                    <a
                     target="_blank"
                     href="https://www.ifood.com.br/delivery/sao-paulo-sp/quitanda-pinheiros/efe332d7-74fa-48a8-949d-ac1a45ab4738"
                     class="text-p btn-tabs">COMPRE ONLINE</a>

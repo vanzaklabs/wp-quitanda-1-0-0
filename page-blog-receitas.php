@@ -13,6 +13,7 @@
     <section id="conteudo-receitas">
         <div>
             <?php
+
                 $lista_posts = wp_get_post_categories( $post_id,
                         array(
                         'fields'    => 'receitas',
@@ -23,7 +24,9 @@
                     foreach ( $lista_posts as $post_receita ) {
                         echo esc_html( $post_receita ) . '<br />';
                     }
-                } ?>
+                }
+
+            ?>
         </div>
     </section>
 
