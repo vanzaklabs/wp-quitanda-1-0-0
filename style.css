@@ -1087,6 +1087,9 @@ section#quitanda-institucional {
     text-transform: capitalize;
     font-style: italic;
 }
+ul#menu-footer-principal {
+    line-height: 30px;
+}
 
 .menufooter1 {
     gap: 5vh;
