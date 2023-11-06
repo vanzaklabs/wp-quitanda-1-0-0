@@ -228,7 +228,7 @@ Template Name: Home
             <div class="d-flex justify-center">
                 <div class="container d-flex gapsection justify-between">
                     <div class="h-80 w-50 d-flex align-center">
-                        <div class="d-flex flex-column gap7">
+                        <div class="d-flex flex-column gap20px">
                             <h2 class="title">QUITANDA <br> ESCOLAS</h2>
                             <p class="text-p">Nossa missão é clara: nutrir o futuro com sabor, saúde e sustentabilidade. Desde o início, estamos empenhados em promover hábitos alimentares saudáveis entre as novas gerações, tornando o ambiente escolar uma extensão da nossa casa. Acreditamos em uma alimentação simples, fresca e caseira, preparada com carinho e servida com cuidado. Optamos por ingredientes de alta qualidade, sempre priorizando os mais frescos e minimamente processados, garantindo que cada refeição não apenas promova a saúde, mas também ofereça um sabor incrível.
                             </p>
@@ -262,7 +262,7 @@ Template Name: Home
                         </a>
                     </div>
                     <div class="h-80 w-50 d-flex align-center">
-                        <div class="d-flex flex-column gap7">
+                        <div class="d-flex flex-column gap20px">
                             <h2 class="title">QUITANDA <br> EMPRESAS</h2>
                             <p class="text-p">Imagine ter à disposição no seu escritório os produtos exclusivos da marca Quitanda, que normalmente você só encontraria na nossa delicatessen e na padaria? Sim, isso é possível! Estamos prontos para levar até você opções deliciosas e saudáveis para os seus coffee breaks, eventos corporativos e até mesmo para nutrir os seus colaboradores durante todo o dia. Atendemos diversos segmentos de empresas, tornando a rotina de trabalho muito mais prazerosa e saborosa.
                             </p>
