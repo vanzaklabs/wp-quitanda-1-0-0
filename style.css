@@ -996,7 +996,9 @@ section#quitanda-institucional {
     flex-direction: column;
     justify-content: center;
 }
-
+.container.d-flex.gapsection.justify-between {
+    align-items: center;
+}
 .imgsectionimgtext {
     width: 50%;
     min-height: 70vh;
