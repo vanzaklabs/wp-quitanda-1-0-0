@@ -76,14 +76,15 @@
                 </div>
 
                 <nav id="nav-mob" class="d-none-menu-mobile">
-                        <?php
-                            wp_nav_menu( array( 
-                                'theme_location' => 'menuHeaderMob', 
-                                'container_class' => 'text-white'
-                                )
-                            ); 
-                        ?>
-                    <ul>
+                    <?php
+                        wp_nav_menu( array( 
+                            'theme_location' => 'menuHeaderMob', 
+                            'container_class' => 'text-white'
+                            )
+                        ); 
+                    ?>
+                </nav>
+                <ul>
                         <li>
                             <div class="text-white social-nav">
                                 <a href="#">
@@ -158,7 +159,6 @@
                             </div>
                         </li>
                     </ul>
-                </nav>
             </div>
         </header>
 
