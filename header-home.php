@@ -78,7 +78,7 @@
                 <nav id="nav-mob" class="d-none-menu-mobile">
                         <?php
                             wp_nav_menu( array( 
-                                'theme_location' => 'menuHeaderEsq', 
+                                'theme_location' => 'menuHeaderMob', 
                                 'container_class' => 'text-white'
                                 )
                             ); 
