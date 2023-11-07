@@ -30,25 +30,24 @@
             <article id="card-artigo" class="container">
                 
                 <?php if ( has_post_thumbnail() ) { ?>
-
                     <a
                         id="conteudo-link"
                         href="<?php the_permalink(); ?>"
                         title="<?php the_title_attribute(); ?>">
 
-                    <div id="capa-gradiente">
-                        <div class="conteudo-txt">
+                        <div id="capa-gradiente">
+                            
+                            <div class="conteudo-txt">
                                 <h2>
                                         <?php the_title(); ?>
                                 </h2>
+                            </div>
+
+                            <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
+                            </div> 
+
                         </div>
-
-                        <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
-                        </div> 
-
-                    </div>
                     </a>
-
                 <?php } ?>
                 
             </article>
