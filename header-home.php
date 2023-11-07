@@ -83,8 +83,7 @@
                             )
                         ); 
                     ?>
-                </nav>
-                <ul>
+                    <ul>
                         <li>
                             <div class="text-white social-nav">
                                 <a href="#">
@@ -159,6 +158,9 @@
                             </div>
                         </li>
                     </ul>
+                    
+                </nav>
+
             </div>
         </header>
 
