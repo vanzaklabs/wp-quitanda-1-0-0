@@ -83,8 +83,9 @@
         display: flex;
         padding: 20px;
     }
-    #card-artigo:nth-child(odd) {
+    #card-artigo:nth-child(2n+0) {
         column-gap: 20px;
+        background-color: red;
     }
     span.subtitulo {
         font-size: 70%;
