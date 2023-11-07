@@ -79,6 +79,10 @@
         padding-bottom: 30px;
         background-color: var(--bg-03);
     }
+    section.conteudo.conteudo-wpTheLoop {
+        display: flex;
+        padding: 20px;
+    }
     span.subtitulo {
         font-size: 70%;
         display: block;
@@ -88,6 +92,7 @@
         margin: auto;
     }
     article#card-artigo {
+        width: 50%;
         margin-bottom: 50px;
     }
     #capa-gradiente{
@@ -107,7 +112,7 @@
     }
     .conteudo-txt {
         margin: 80px;
-        width: 80%;
+        width: 40%;
         padding-top: 250px;
         color: white;
         position: absolute;
