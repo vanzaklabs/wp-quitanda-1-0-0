@@ -109,12 +109,14 @@
         background-color: var(--bg-03);
     }
 
+    /* MEDIA */
     @media (max-width: 400px){
         .capaConteudo {
             height: 100vh;
         }
         div#capa {
             height: 100vh;
+            padding-top: 0px;
         }
     }
 
