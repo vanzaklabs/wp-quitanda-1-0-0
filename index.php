@@ -38,7 +38,7 @@
                         <div id="capa-gradiente">
                             
                             <div class="conteudo-txt">
-                                <h2>
+                                <h2 class="subtitulo fonte-serifada">
                                         <?php the_title(); ?>
                                 </h2>
                             </div>
@@ -116,7 +116,7 @@
     .conteudo-txt {
         margin: 80px;
         width: 40%;
-        padding-top: 250px;
+        padding-top: 310px;
         color: white;
         position: absolute;
         z-index: 1;
