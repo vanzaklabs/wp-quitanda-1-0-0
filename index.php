@@ -83,7 +83,7 @@
         display: flex;
         padding: 20px;
     }
-    section.conteudo.conteudo-wpTheLoop:nth-child(even) {
+    article#card-artigo:nth-child(even) {
         column-gap: 20px;
     }
     span.subtitulo {
