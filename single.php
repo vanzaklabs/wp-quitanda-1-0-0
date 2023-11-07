@@ -109,6 +109,12 @@
         background-color: var(--bg-03);
     }
 
+    @media (max-width: 400px){
+        .capa-conteudo {
+            height: 100vh;
+        }
+    }
+
 </style>
 
 <?php get_footer(); ?>
