@@ -120,14 +120,14 @@
     /* MEDIA */
     @media (max-width: 400px){
         .capaConteudo {
-            height: 100vh;
+            height: 90vh;
         }
         div#capa {
-            height: 100vh;
+            height: 90vh;
             padding-top: 0px;
         }
         div#capaTituloH1 {
-            height: 100vh;
+            height: 90vh;
             display: flex;
             align-items: flex-end;
         }
