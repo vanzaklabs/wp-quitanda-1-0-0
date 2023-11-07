@@ -131,6 +131,9 @@
             display: flex;
             align-items: flex-end;
         }
+        main#page-main-content {
+            padding-top: 0rem;
+        }
     }
 
 </style>
