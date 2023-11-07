@@ -129,7 +129,7 @@
         font-size: 40px;
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 400px){
         article#card-artigo {
             width: 100%;
         }
