@@ -31,15 +31,15 @@
                 
                 <?php if ( has_post_thumbnail() ) { ?>
 
+                    <a
+                        id="conteudo-link"
+                        href="<?php the_permalink(); ?>"
+                        title="<?php the_title_attribute(); ?>">
+
                     <div id="capa-gradiente">
                         <div class="conteudo-txt">
                                 <h2>
-                                    <a
-                                        id="conteudo-link"
-                                        href="<?php the_permalink(); ?>"
-                                        title="<?php the_title_attribute(); ?>">
                                         <?php the_title(); ?>
-                                    </a>
                                 </h2>
                         </div>
 
@@ -47,6 +47,7 @@
                         </div> 
 
                     </div>
+                    </a>
 
                 <?php } ?>
                 
