@@ -84,7 +84,10 @@
         position: absolute;
         z-index: 1;
         width: 100%;
-        margin-top: 450px;
+        /* margin-top: 450px; */
+            height: 100vh;
+            display: flex;
+            align-items: flex-end;
     }
     section#sec-wpTheLoop {
         min-height: 60vh;
@@ -104,7 +107,7 @@
     }
     p.subtitulo.fonte-serifada {
         color: var(--text-color-01);
-        font-size: 40px;
+        font-size: 60px;
         margin: 20px;
     }
 
@@ -122,6 +125,11 @@
         div#capa {
             height: 100vh;
             padding-top: 0px;
+        }
+        div#capaTituloH1 {
+            height: 100vh;
+            display: flex;
+            align-items: flex-end;
         }
     }
 
