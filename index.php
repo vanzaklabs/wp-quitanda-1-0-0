@@ -84,7 +84,7 @@
         padding: 20px;
     }
     #card-artigo:nth-child(odd) {
-        column-gap: 20px;
+        margin-right: 20px;
     }
     span.subtitulo {
         font-size: 70%;
