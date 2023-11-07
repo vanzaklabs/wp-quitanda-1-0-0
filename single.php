@@ -49,6 +49,34 @@
 
 </main>
 
+<section id="conteudo-relacionado">
+
+    <h1>POSTS RELACIONADOS</h1>
+    <?php
+
+        $post_relacionado = get_posts(
+
+                array(
+                    'listar' => wp_get_post_categories('receitas'),
+                    'numberposts' => 3,
+                    'categoria' => array($post->ID) )
+                );
+
+                if( $post_relacionado ) foreach( $post_relacionado as $post ) {
+                    setup_postdata($post); ?>
+                        <ul> 
+                            <li>
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
+                                <?php the_content('Leia mais &raquo;'); ?>
+                            </li>
+                        </ul>   
+    <?php }
+            wp_reset_postdata(); ?>
+
+</section>
+
 <style>
 
     div#capa {
