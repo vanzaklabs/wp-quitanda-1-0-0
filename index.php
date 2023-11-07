@@ -130,11 +130,16 @@
     }
 
     @media (max-width: 400px){
+        main.conteudo-main{
+            padding-bottom: 0px;
+            /* margin-bottom: -50px; */
+        }
         #titulo-blog {
             margin: 0px 0px -20px 0px;
         }
         article#card-artigo {
             width: 100%;
+            margin-bottom: 0px;
         }
         #card-artigo:nth-child(odd) {
             margin-right: 0px;
