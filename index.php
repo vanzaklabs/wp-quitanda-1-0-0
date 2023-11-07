@@ -4,7 +4,7 @@
 
 <main class="conteudo-main">
 
-    <h1>
+    <h1 id="titulo-blog">
         <?php bloginfo('name');?>
             <span class="subtitulo fonte-serifada">
                 <?php wp_title(''); ?>
@@ -79,6 +79,9 @@
         padding-top: 170px;
         padding-bottom: 30px;
         background-color: var(--bg-03);
+    }
+    #titulo-blog{     
+        margin: 10px 0px 0px 0px;
     }
     section.conteudo.conteudo-wpTheLoop {
         display: flex;
