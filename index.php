@@ -30,6 +30,7 @@
             <article id="card-artigo" class="container">
                 
                 <?php if ( has_post_thumbnail() ) { ?>
+
                     <a
                         id="conteudo-link"
                         href="<?php the_permalink(); ?>"
@@ -38,9 +39,9 @@
                         <div id="capa-gradiente">
                             
                             <div class="conteudo-txt">
-                                <h2 class="subtitulo fonte-serifada">
+                                <p class="subtitulo fonte-serifada">
                                         <?php the_title(); ?>
-                                </h2>
+                                </p>
                             </div>
 
                             <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
@@ -48,6 +49,7 @@
 
                         </div>
                     </a>
+
                 <?php } ?>
                 
             </article>
@@ -121,6 +123,10 @@
         position: absolute;
         z-index: 1;
     }
+    p.subtitulo.fonte-serifada {
+        font-size: 40px;
+    }
+
 </style>
 
 <?php get_footer(); ?>
