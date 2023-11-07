@@ -136,6 +136,9 @@
         article#card-artigo {
             width: 100%;
         }
+        #card-artigo:nth-child(odd) {
+            margin-right: 0px;
+        }
         section.conteudo.conteudo-wpTheLoop {
             display: contents;
         }
@@ -144,7 +147,7 @@
         }
         .conteudo-txt {
             margin: 20px;
-            width: 80%;
+            width: 90%;
         }
     }
 
