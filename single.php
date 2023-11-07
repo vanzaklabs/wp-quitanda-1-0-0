@@ -77,16 +77,15 @@
         display: flex;
         margin: auto;
         text-align: -webkit-center;
-        height: 600px;
-        align-items: flex-end;
-    }
-    div#capaTituloH1 {
+        /* height: 600px; */
+        /* align-items: flex-end; */
+    
         position: absolute;
         z-index: 1;
         width: 100%;
         /* margin-top: 450px; */
-            height: 100vh;
-            display: flex;
+            height: 80vh;
+            /* display: flex; */
             align-items: flex-end;
     }
     section#sec-wpTheLoop {
