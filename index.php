@@ -131,7 +131,7 @@
 
     @media (max-width: 400px){
         #titulo-blog {
-            margin: 0px 0px -50px 0px;
+            margin: 0px 0px -20px 0px;
         }
         article#card-artigo {
             width: 100%;
