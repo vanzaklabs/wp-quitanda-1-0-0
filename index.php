@@ -83,7 +83,7 @@
         display: flex;
         padding: 20px;
     }
-    article#card-artigo:nth-child(odd) {
+    #card-artigo:nth-child(odd) {
         column-gap: 20px;
     }
     span.subtitulo {
