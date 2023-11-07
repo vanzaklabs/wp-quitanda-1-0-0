@@ -102,6 +102,11 @@
         float: left;
         margin: 0px 20px 20px 0px;
     }
+    p.subtitulo.fonte-serifada {
+        color: var(--text-color-01);
+        font-size: 40px;
+        margin: 20px;
+    }
 
     /* POSTS RELACIONADOS */
     section#conteudo-relacionado {
