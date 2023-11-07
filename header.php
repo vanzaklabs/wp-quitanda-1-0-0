@@ -83,13 +83,14 @@
                 </div>
 
                 <nav id="nav-mob" class="d-none-menu-mobile">
+                    <?php
+                            wp_nav_menu( array( 
+                                'theme_location' => 'menuHeaderMob', 
+                                'container_class' => 'text-white'
+                                )
+                            );
+                        ?>
                     <ul>
-                        <li><a href="institucional.html" class="text-white">sobre nós</a></li>
-                        <li><a href="institucional.html" class="text-white">quitanda escolas</a></li>
-                        <li><a href="institucional.html" class="text-white">quitanda empresas</a></li>
-                        <li><a href="institucional.html" class="text-white">minha quitanda</a></li>
-                        <li><a href="institucional.html" class="text-white">encomendas</a></li>
-                        <li><a href="institucional.html" class="text-white">compre online</a></li>
                         <li>
                             <div class="text-white social-nav">
                                 <a href="#">
