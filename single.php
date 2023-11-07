@@ -5,7 +5,9 @@
 <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
 
     <div id="capaTituloH1">
-        <h1 id="fonte-serifada"><?php the_title(); ?></h1>
+        <h1 id="fonte-serifada">
+            <?php the_title(); ?>
+        </h1>
     </div>
     
     <div id="capa">
@@ -14,9 +16,9 @@
         background-size: cover;
         background-attachment: fixed;
         background-position: center;"> '; ?>
-            <div id="capaTitulo">
+            <!-- <div id="capaTitulo">
                 
-            </div>
+            </div> -->
         <?php echo '</div>' ?>
     </div>
 
