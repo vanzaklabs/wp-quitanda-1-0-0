@@ -12,7 +12,7 @@ Template Name: Capa + Texto
     <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
 
         <div id="capaTituloH1">
-        <h1 class="fonte-serifada"><?php the_title(); ?></h1>
+        <h1 id="h1Titulo"><?php the_title(); ?></h1>
         </div>
         
         <div id="capa">
@@ -61,7 +61,6 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     .capaConteudo {
         height: 600px;
         mix-blend-mode: multiply;
-        background-position: center;
     }
     div#capaTitulo {
         max-width: 90%;
