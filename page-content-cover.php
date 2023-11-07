@@ -61,6 +61,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     .capaConteudo {
         height: 600px;
         mix-blend-mode: multiply;
+        background-position: center;
     }
     div#capaTitulo {
         max-width: 90%;
