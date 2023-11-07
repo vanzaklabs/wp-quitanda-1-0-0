@@ -110,7 +110,10 @@
     }
 
     @media (max-width: 400px){
-        .capa-conteudo {
+        .capaConteudo {
+            height: 100vh;
+        }
+        div#capa {
             height: 100vh;
         }
     }
