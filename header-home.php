@@ -1,7 +1,7 @@
 <?php
-/**
- * HEADER - HOME
- */
+    /**
+     * HEADER - HOME
+     */
 ?>
 
 <!DOCTYPE html>
