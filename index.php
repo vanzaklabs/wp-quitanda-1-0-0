@@ -130,11 +130,14 @@
     }
 
     @media (max-width: 400px){
+        #titulo-blog {
+            margin: 0px 0px -50px 0px;
+        }
         article#card-artigo {
             width: 100%;
         }
-        #titulo-blog {
-            margin: 0px 0px -50px 0px;
+        section.conteudo.conteudo-wpTheLoop {
+            display: contents;
         }
         span.subtitulo {
             line-height: 30px;
