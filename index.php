@@ -83,6 +83,9 @@
         display: flex;
         padding: 20px;
     }
+    section.conteudo.conteudo-wpTheLoop:nth-child(even) {
+        column-gap: 20px;
+    }
     span.subtitulo {
         font-size: 70%;
         display: block;
@@ -106,6 +109,7 @@
         height: 500px;
         mix-blend-mode: multiply;
     }
+
     a#conteudo-link {
         color: white;
         font-size: 50px;
