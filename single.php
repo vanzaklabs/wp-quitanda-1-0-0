@@ -37,11 +37,11 @@
 
                 <?php endwhile;
 
-            else : ?>
-            
-                <article>
-                    <p>:-[ Ué... Não tem nada aqui! </p>
-                </article>
+                else : ?>
+                
+                    <article>
+                        <p>:-[ Ué... Não tem nada aqui! </p>
+                    </article>
 
             <?php endif; ?>
             
@@ -49,31 +49,9 @@
 
 </main>
 
-<section id="conteudo-relacionado">
+<section id="conteudo-relacionado" class="d-flex justify-center align-center flex-column p-section bg-03">
 
-    <h1>POSTS RELACIONADOS</h1>
-    <?php
-
-        $post_relacionado = get_posts(
-
-                array(
-                    'listar' => wp_get_post_categories('receitas'),
-                    'numberposts' => 3,
-                    'categoria' => array($post->ID) )
-                );
-
-                if( $post_relacionado ) foreach( $post_relacionado as $post ) {
-                    setup_postdata($post); ?>
-                        <ul> 
-                            <li>
-                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-                                    <?php the_title(); ?>
-                                </a>
-                                <?php the_content('Leia mais &raquo;'); ?>
-                            </li>
-                        </ul>   
-    <?php }
-            wp_reset_postdata(); ?>
+        <!-- <?php include 'post-relacionado-receitas.php' ?> -->
 
 </section>
 
@@ -117,6 +95,12 @@
     .alignleft {
         float: left;
         margin: 0px 20px 20px 0px;
+    }
+
+    /* POSTS RELACIONADOS */
+    section#conteudo-relacionado {
+        margin-top: -85px;
+        background-color: var(--bg-03);
     }
 
 </style>
