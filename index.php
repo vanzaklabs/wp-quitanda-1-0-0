@@ -41,7 +41,6 @@
                                         <?php the_title(); ?>
                                     </a>
                                 </h2>
-                                <!-- <?php the_excerpt(); ?> -->
                         </div>
 
                         <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
