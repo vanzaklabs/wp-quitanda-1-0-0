@@ -9,7 +9,11 @@
     </div>
     
     <div id="capa">
-        <?php echo ' <div class="capaConteudo" style="background: url(' . $url . '); background-size: cover; background-attachment: fixed;"> '; ?>
+        <?php echo ' <div class="capaConteudo"
+        style="background: url(' . $url . ');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;"> '; ?>
             <div id="capaTitulo">
                 
             </div>
