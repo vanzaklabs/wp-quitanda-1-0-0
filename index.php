@@ -18,7 +18,7 @@
                 'post_status' => 'publish',
                 'order' => 'DESC',
                 'orderby' => 'title',
-                'posts_per_page' => '10',
+                'posts_per_page' => '20',
             );
 
             // The Query
@@ -113,7 +113,6 @@
         height: 500px;
         mix-blend-mode: multiply;
     }
-
     a#conteudo-link {
         color: white;
         font-size: 50px;
@@ -128,6 +127,22 @@
     }
     p.subtitulo.fonte-serifada {
         font-size: 40px;
+    }
+
+    @media (max-width: 600px){
+        article#card-artigo {
+            width: 100%;
+        }
+        #titulo-blog {
+            margin: 0px 0px -50px 0px;
+        }
+        span.subtitulo {
+            line-height: 30px;
+        }
+        .conteudo-txt {
+            margin: 20px;
+            width: 80%;
+        }
     }
 
 </style>
