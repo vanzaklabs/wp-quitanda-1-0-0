@@ -72,13 +72,13 @@
         height: 600px;
         mix-blend-mode: multiply;
     }
-    div#capaTitulo {
-        max-width: 90%;
+    div#capaTituloH1 {
         display: flex;
-        margin: auto;
-        text-align: -webkit-center;
-        height: 600px;
         align-items: flex-end;
+        height: 75vh;
+        margin: 0px 0px 0px 3%;
+        position: absolute;
+        z-index: 1;
     }
     
     section#sec-wpTheLoop {
