@@ -76,7 +76,7 @@
         display: flex;
         align-items: flex-end;
         height: 75vh;
-        margin: 0px 0px 0px 3%;
+        margin: 100px 0px 0px 3%;
         position: absolute;
         z-index: 1;
     }
