@@ -71,11 +71,19 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
         height: 600px;
         align-items: flex-end;
     }
-    div#capaTituloH1 {
+
+    /* div#capaTituloH1 {
         position: absolute;
         z-index: 1;
         width: 100%;
         margin-top: 450px;
+    } */
+    div#capaTituloH1 {
+        display: grid;
+        margin: 600px 0px 0px 4%;
+        position: absolute;
+        z-index: 1;
+        align-items: end;
     }
     section#sec-wpTheLoop {
         min-height: 60vh;
