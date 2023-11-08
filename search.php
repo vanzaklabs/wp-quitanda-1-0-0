@@ -16,12 +16,8 @@
             </svg>
         </div>
         <h1 id="h1-resultado-busca">
-            <?php echo get_search_query(); ?>
+            Busca por: <?php echo get_search_query(); ?>
         </h1>
-        <p></p>
-            <div>
-                <?php get_search_form(); ?>
-            </div>
     </section>
 
     <section>
@@ -29,7 +25,8 @@
         <?php
             $s=get_search_query();
             $args = array(
-                            's' =>$s
+                            's' =>$s,
+                            'post_type' => 'receitas', 'post', 'pages'
                         );
                         // The Query
             $the_query = new WP_Query( $args );
@@ -60,11 +57,6 @@
 
 <!-- STYLE IN FILE -->
 <style>
-    section#busca {
-        padding-top: 200px;
-        padding-bottom: 80px;
-        min-height: 60vh;
-    }
 </style>
 
 
