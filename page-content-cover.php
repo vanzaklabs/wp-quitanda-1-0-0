@@ -53,7 +53,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
 </main>
 
 <style>
-
+    /* PAGE-CONTENT-COVER */
     div#capa {
         display: grid;
         padding-top: 130px;
