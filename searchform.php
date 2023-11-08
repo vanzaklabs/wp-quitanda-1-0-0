@@ -10,7 +10,7 @@
 
     <form action="<?php echo home_url(); ?>/" method="get">
 
-        <label for="search">Buscar</label>
+        <label for="search">Buscar por</label>
         
         <input list="s" type="text" name="s" id="search" value="<?php the_search_query(); ?>" autofocus required />
         <datalist id="s">
@@ -30,10 +30,8 @@
 
 <style>
     input#search {
-        height: 150px;
-        width: 510px;
-        color: white;
-        background-color: transparent;
+        height: 50px;
+        width: 500px;
         border: 0px;
     }
     input#search:focus {
