@@ -80,7 +80,7 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     } */
     div#capaTituloH1 {
         display: grid;
-        margin: 600px 0px 0px 4%;
+        margin: 100px 0px 0px 3%;
         position: absolute;
         z-index: 1;
         align-items: end;
