@@ -133,13 +133,21 @@
             position: absolute;
             z-index: 1;
             width: 100%;
-            height: 90vh;
+            /* height: 90vh; */
             display: flex;
             align-items: flex-end;
         }
 
+        p.subtitulo.fonte-serifada {
+            font-size: 40px;
+            margin: 0px;
+        }
+
         main#page-main-content {
             padding-top: 0rem;
+        }
+        section#sec-wpTheLoop {
+            padding-top: 30px;
         }
 
     }
