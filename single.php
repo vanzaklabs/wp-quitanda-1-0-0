@@ -144,7 +144,7 @@
 
     }
 
-    @media (max-width: 1500px){
+    @media (min-width: 1500px){
         .capaConteudo {
             height: 60vh;
         }
