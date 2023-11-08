@@ -81,8 +81,8 @@
                             'theme_location' => 'menuHeaderMob', 
                             'container_class' => 'text-white'
                             )
-                        ); 
-                    ?>
+                        );
+                        ?>
                     <ul>
                         <li>
                             <div class="text-white social-nav">

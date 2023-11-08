@@ -4,7 +4,7 @@
 
 <main class="conteudo-main">
 
-    <h1>
+    <h1 id="titulo-blog">
         <?php bloginfo('name');?>
             <span class="subtitulo fonte-serifada">
                 <?php wp_title(''); ?>
@@ -18,7 +18,7 @@
                 'post_status' => 'publish',
                 'order' => 'DESC',
                 'orderby' => 'title',
-                'posts_per_page' => '10',
+                'posts_per_page' => '20',
             );
 
             // The Query
@@ -31,23 +31,24 @@
                 
                 <?php if ( has_post_thumbnail() ) { ?>
 
-                    <div id="capa-gradiente">
-                        <div class="conteudo-txt">
-                                <h2>
-                                    <a
-                                        id="conteudo-link"
-                                        href="<?php the_permalink(); ?>"
-                                        title="<?php the_title_attribute(); ?>">
+                    <a
+                        id="conteudo-link"
+                        href="<?php the_permalink(); ?>"
+                        title="<?php the_title_attribute(); ?>">
+
+                        <div id="capa-gradiente">
+                            
+                            <div class="conteudo-txt">
+                                <p class="subtitulo fonte-serifada">
                                         <?php the_title(); ?>
-                                    </a>
-                                </h2>
-                                <?php the_excerpt(); ?>
+                                </p>
+                            </div>
+
+                            <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
+                            </div> 
+
                         </div>
-
-                        <div id="capa-artigo" style="background-image: url('<?php the_post_thumbnail_url( null, 'medium' ); ?>');">  
-                        </div> 
-
-                    </div>
+                    </a>
 
                 <?php } ?>
                 
@@ -79,6 +80,16 @@
         padding-bottom: 30px;
         background-color: var(--bg-03);
     }
+    #titulo-blog{     
+        margin: 10px 0px 0px 0px;
+    }
+    section.conteudo.conteudo-wpTheLoop {
+        display: flex;
+        padding: 20px;
+    }
+    #card-artigo:nth-child(odd) {
+        margin-right: 20px;
+    }
     span.subtitulo {
         font-size: 70%;
         display: block;
@@ -88,6 +99,7 @@
         margin: auto;
     }
     article#card-artigo {
+        width: 50%;
         margin-bottom: 50px;
     }
     #capa-gradiente{
@@ -107,12 +119,43 @@
     }
     .conteudo-txt {
         margin: 80px;
-        width: 80%;
-        padding-top: 250px;
+        width: 40%;
+        padding-top: 310px;
         color: white;
         position: absolute;
         z-index: 1;
     }
+    p.subtitulo.fonte-serifada {
+        font-size: 40px;
+    }
+
+    @media (max-width: 400px){
+        main.conteudo-main{
+            padding-bottom: 0px;
+            /* margin-bottom: -50px; */
+        }
+        #titulo-blog {
+            margin: 0px 0px -20px 0px;
+        }
+        article#card-artigo {
+            width: 100%;
+            margin-bottom: 0px;
+        }
+        #card-artigo:nth-child(odd) {
+            margin-right: 0px;
+        }
+        section.conteudo.conteudo-wpTheLoop {
+            display: contents;
+        }
+        span.subtitulo {
+            line-height: 30px;
+        }
+        .conteudo-txt {
+            margin: 20px;
+            width: 90%;
+        }
+    }
+
 </style>
 
 <?php get_footer(); ?>
