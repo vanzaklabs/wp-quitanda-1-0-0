@@ -6,11 +6,11 @@ Template Name: Capa + Texto
 
 <?php get_header(); ?>
 
-<!-- COVER -->
+
 
 
     <?php if (has_post_thumbnail()) : $url = get_the_post_thumbnail_url(); ?>
-
+        <!-- CAPA -->
         <div id="capaTituloH1">
         <h1 id="h1Titulo"><?php the_title(); ?></h1>
         </div>
@@ -30,10 +30,11 @@ class="d-flex justify-center align-center flex-column p-section bg-03 ">
     <section id="sec-wpTheLoop" class="container">
 
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                
+                <!-- POST -->
                 <article id="artigo-wpTheLoop">
 
                     <div class="text-p">
+                        <!-- CONTEUDO -->
                         <?php the_content(); ?>
                     </div>
 
