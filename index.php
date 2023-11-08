@@ -102,6 +102,7 @@
     article#card-artigo {
         width: 50%;
         margin-bottom: 50px;
+        width: -webkit-fill-available;
     }
     #capa-gradiente{
         background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.70) 100%);
