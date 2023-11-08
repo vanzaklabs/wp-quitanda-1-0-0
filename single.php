@@ -77,15 +77,16 @@
         display: flex;
         margin: auto;
         text-align: -webkit-center;
-        /* height: 600px; */
-        /* align-items: flex-end; */
-    
+        height: 600px;
+        align-items: flex-end;
+    }
+    div#capaTituloH1 {
         position: absolute;
         z-index: 1;
         width: 100%;
         /* margin-top: 450px; */
-            height: 80vh;
-            /* display: flex; */
+            height: 100vh;
+            display: flex;
             align-items: flex-end;
     }
     section#sec-wpTheLoop {
@@ -119,10 +120,10 @@
     /* MEDIA */
     @media (max-width: 400px){
         .capaConteudo {
-            height: 70vh;
+            height: 90vh;
         }
         div#capa {
-            height: 70vh;
+            height: 90vh;
             padding-top: 0px;
         }
         div#capaTituloH1 {
