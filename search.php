@@ -23,10 +23,14 @@
     <section>
 
         <?php
-            $s=get_search_query();
+            $s = get_search_query();
             $args = array(
-                            's' =>$s,
-                            'post_type' => 'receitas', 'post', 'pages'
+                            's' => $s,
+                            'posts_per_page' => -1,
+                            // 'orderby' => 'comment_count',
+                            'post_status' => 'published',
+                            // 'category_name' => 'health',
+                            'post_type' => array( 'post', 'page', 'receitas')
                         );
                         // The Query
             $the_query = new WP_Query( $args );
