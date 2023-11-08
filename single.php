@@ -63,15 +63,21 @@
 
 <style>
 
+    main#page-main-content {
+        padding-top: 0px;
+    }
+
     div#capa {
         display: grid;
         padding-top: 130px;
         background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.70) 100%);
     }
+
     .capaConteudo {
         height: 600px;
         mix-blend-mode: multiply;
     }
+
     div#capaTituloH1 {
         display: flex;
         align-items: flex-end;
@@ -80,23 +86,25 @@
         position: absolute;
         z-index: 1;
     }
-    
+
     section#sec-wpTheLoop {
         min-height: 60vh;
         padding-top: 50px;
     }
-
     h1#h1Titulo {
         color: white;
         padding-bottom: 0px;
     }
+    
     h2, div.text-p p {
         margin-bottom: 25px;
     }
+
     .alignleft {
         float: left;
         margin: 0px 20px 20px 0px;
     }
+
     p.subtitulo.fonte-serifada {
         color: var(--text-color-01);
         font-size: 60px;
@@ -111,13 +119,16 @@
 
     /* MEDIA */
     @media (max-width: 400px){
+
         .capaConteudo {
             height: 90vh;
         }
+
         div#capa {
             height: 90vh;
             padding-top: 0px;
         }
+
         div#capaTituloH1 {
             position: absolute;
             z-index: 1;
@@ -126,9 +137,11 @@
             display: flex;
             align-items: flex-end;
         }
+
         main#page-main-content {
             padding-top: 0rem;
         }
+        
     }
 
 </style>
