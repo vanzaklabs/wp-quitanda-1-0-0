@@ -85,6 +85,7 @@
     }
     section.conteudo.conteudo-wpTheLoop {
         display: flex;
+        flex-wrap: wrap;
         padding: 20px;
     }
     #card-artigo:nth-child(odd) {
@@ -119,7 +120,7 @@
     }
     .conteudo-txt {
         margin: 80px;
-        width: 40%;
+        /* width: 40%; */
         padding-top: 310px;
         color: white;
         position: absolute;
