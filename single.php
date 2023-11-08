@@ -127,7 +127,7 @@
             padding-top: 0px;
         }
         div#capaTituloH1 {
-            height: 70vh;
+            height: 90vh;
             display: flex;
             align-items: flex-end;
         }
