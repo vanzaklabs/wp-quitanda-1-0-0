@@ -88,9 +88,9 @@
         flex-wrap: wrap;
         padding: 20px;
     }
-    #card-artigo:nth-child(odd) {
+    /* #card-artigo:nth-child(odd) {
         margin-right: 20px;
-    }
+    } */
     span.subtitulo {
         font-size: 70%;
         display: block;
