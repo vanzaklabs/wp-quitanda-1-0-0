@@ -79,12 +79,12 @@
     }
 
     div#capaTituloH1 {
-        display: flex;
-        align-items: flex-end;
+        display: grid;
         height: 75vh;
-        margin: 100px 0px 0px 3%;
+        margin: 0px 0px 0px 3%;
         position: absolute;
         z-index: 1;
+        align-items: end;
     }
 
     section#sec-wpTheLoop {
@@ -141,7 +141,7 @@
         main#page-main-content {
             padding-top: 0rem;
         }
-        
+
     }
 
 </style>
