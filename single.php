@@ -118,7 +118,7 @@
     }
 
     /* MEDIA */
-    @media (min-width: 600px){
+    @media (max-width: 600px){
 
         .capaConteudo {
             height: 90vh;
@@ -144,7 +144,7 @@
 
     }
 
-    @media (min-width: 1500px){
+    @media (max-width: 1500px){
         .capaConteudo {
             height: 60vh;
         }
