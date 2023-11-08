@@ -74,13 +74,13 @@
     }
 
     .capaConteudo {
-        height: 600px;
+        height: 70vh;
         mix-blend-mode: multiply;
     }
 
     div#capaTituloH1 {
         display: grid;
-        height: 75vh;
+        height: 85vh;
         margin: 0px 0px 0px 3%;
         position: absolute;
         z-index: 1;
@@ -142,6 +142,15 @@
             padding-top: 0rem;
         }
 
+    }
+
+    @media (max-width: 1600px){
+        .capaConteudo {
+            height: 60vh;
+        }
+        div#capaTituloH1 {
+            height: 70vh;
+        }
     }
 
 </style>
