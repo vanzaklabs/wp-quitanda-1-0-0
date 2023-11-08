@@ -80,15 +80,7 @@
         height: 600px;
         align-items: flex-end;
     }
-    div#capaTituloH1 {
-        position: absolute;
-        z-index: 1;
-        width: 100%;
-        /* margin-top: 450px; */
-            height: 100vh;
-            display: flex;
-            align-items: flex-end;
-    }
+    
     section#sec-wpTheLoop {
         min-height: 60vh;
         padding-top: 50px;
