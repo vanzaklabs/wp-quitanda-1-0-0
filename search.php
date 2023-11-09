@@ -8,6 +8,7 @@
 <?php get_header(); ?>
        
     <section class="sec-busca">
+
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -15,15 +16,19 @@
                 <path d="M21 21l-6 -6"></path>
             </svg>
         </div>
+        
         <h1 id="h1-resultado-busca">
             Busca por: <?php echo get_search_query(); ?>
         </h1>
+    
     </section>
 
-    <section>
+    <section id="sec-resultado">
 
         <?php
+
             $s = get_search_query();
+
             $args = array(
                             's' => $s,
                             'posts_per_page' => -1,
@@ -32,26 +37,37 @@
                             // 'category_name' => 'health',
                             'post_type' => array( 'post', 'page', 'receitas')
                         );
-                        // The Query
+
+            // The Query
             $the_query = new WP_Query( $args );
+
             if ( $the_query->have_posts() ) {
-                    _e("<p style='font-weight:bold;color:#000'>RESULTADO PARA: " . get_query_var('s')."</p>");
+
+                    // _e("<p id='p-resultado'>RESULTADO: " . get_query_var('s') . "</p>");
+
                     while ( $the_query->have_posts() ) {
                     $the_query->the_post();
-                            ?>
-                                <li>
+        ?>
+                                
                                     <a href="<?php the_permalink(); ?>">
                                         <?php the_title(); ?>
                                     </a>
-                                </li>
-                            <?php
-                    }
-                }else{
-            ?>
+                                    <?php if (has_post_thumbnail()) : $urlCapa = get_the_post_thumbnail_url(); ?>
+                                        <?php echo '<div class="capaConteudoBusca" style="background: url(' . $urlCapa . '); background-size: cover;"></div>'; ?>
+                                    <?php endif; ?>
+                                
+        <?php
+            }
+                } else {
+        ?>
 
-        <h2 style='font-weight:bold;color:#000'>NADA ENCONTRADO</h2>
-        <div class="alert alert-info">
-        <p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
+        <div>
+            <h1>
+                :-/
+            </h1>
+            <p>
+                Opa! Não encontramos nada aqui com <?php get_query_var('s'); ?>!
+            </p>
         </div>
 
         <?php } ?>
@@ -61,6 +77,18 @@
 
 <!-- STYLE IN FILE -->
 <style>
+    section.sec-busca {
+        padding-top: 60px;
+    }
+    section#sec-resultado {
+        margin: 20px;
+    }
+    .capaConteudoBusca {
+        height: 250px;
+    }
+    h1#h1-resultado-busca {
+        margin: 60px 20px -60px 20px;
+    }
 </style>
 
 

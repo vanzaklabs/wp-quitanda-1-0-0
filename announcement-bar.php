@@ -67,6 +67,8 @@
         justify-content: center;
         align-content: center;
         height: -webkit-fill-available;
+        -webkit-transition: width .35s ease-in-out;
+        transition: width .35s ease-in-out;
     }
 </style>
 
