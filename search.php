@@ -8,14 +8,6 @@
 <?php get_header(); ?>
        
     <section class="sec-busca">
-
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
-                <path d="M21 21l-6 -6"></path>
-            </svg>
-        </div>
         
         <h1 id="h1-resultado-busca">
             Busca por: <?php echo get_search_query(); ?>
@@ -85,7 +77,7 @@
 <!-- STYLE IN FILE -->
 <style>
     section.sec-busca {
-        padding-top: 60px;
+        padding-top: 100px;
     }
     section#sec-resultado {
         margin: 20px;
@@ -98,6 +90,12 @@
     h1#h1-resultado-busca {
         margin: 60px 20px -60px 20px;
     }
+    @media (max-width: 600px){
+        h1#h1-resultado-busca {
+            text-wrap: pretty;
+            width: fit-content;
+    }
+    }
     h1.alert-emojiErro {
         margin-bottom: 100px;
         padding: 0px;
@@ -109,9 +107,17 @@
     #listaBusca {
         /* list-style: decimal-leading-zero; */
         list-style: none;
+        padding: 20px;
+        margin-bottom: 50px;
     }
     li#listaBusca {
-        width: 400px;
+        max-width: 850px;
+        min-height: 100px;
+        border-block-end: 5px solid;
+    }
+    li#listaBusca:last-child {
+        border-block-end: 0px solid;
+        margin-bottom: 0px;
     }
     a.linkResultado {
         color: var(--bg-01);
