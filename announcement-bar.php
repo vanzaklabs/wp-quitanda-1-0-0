@@ -1,6 +1,6 @@
 <!-- announcement-bar.php -->
 
-<div id="divBuscador">
+<div id="divBuscador" class="ocultarDivBuscador">
     <div class="annBarBuscador">
         <button id="btnFechaBuscador">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -71,5 +71,3 @@
         transition: width .35s ease-in-out;
     }
 </style>
-
-<script src="<?php echo get_template_directory_uri() ?>/js/buscar.js"></script>

@@ -166,6 +166,8 @@
 <script src="https://cdn.plyr.io/3.7.8/plyr.js"> </script>
 <script> const player = new Plyr('#player'); </script>
 
+<script defer src="<?php echo get_template_directory_uri() ?>/js/buscar.js"></script>
+
 <?php wp_footer(); ?>
 
 </body>

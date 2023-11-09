@@ -24,9 +24,8 @@
     </section>
 
     <section id="sec-resultado">
-    
-        <?php
 
+        <?php
             $s = get_search_query();
             $args = array(
                 's' => $s,
@@ -36,30 +35,23 @@
                 // 'category_name' => 'health',
                 'post_type' => array( 'post', 'page', 'receitas')
             );
-
             // The WP Query
             $the_query = new WP_Query( $args );
+
             if ( $the_query->have_posts() ) {
-                echo "<ol>";
                 // _e("<p id='p-resultado'>RESULTADO: " . get_query_var('s') . "</p>");
                 while ( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo "</ol>";
             ?>
-
-                <li id="listaBusca">                    
-                    <a class="linkResultado" href="<?php the_permalink(); ?>">
-                        <h2 id="parBusca">
-                            <?php the_title(); ?>
-                        </h2>
-                        <?php if (has_post_thumbnail()) : $urlCapa = get_the_post_thumbnail_url(); ?>
-                            <?php echo '<div id="capaConteudoBusca" class="capaConteudoBusca" style="background: url(' . $urlCapa . '); background-size: cover;"></div>'; ?>
-                        <?php endif; ?>
-                        <div id="the_excerpt">
-                            <?php the_excerpt(); ?>
-                        </div>
-                    </a>
-                </li>
+                                
+        <a href="<?php the_permalink(); ?>">
+            <p>
+                <?php the_title(); ?>
+            </p>
+            <?php if (has_post_thumbnail()) : $urlCapa = get_the_post_thumbnail_url(); ?>
+                <?php echo '<div class="capaConteudoBusca" style="background: url(' . $urlCapa . '); background-size: cover;"></div>'; ?>
+            <?php endif; ?>
+        </a>
                                 
         <?php
             }
@@ -104,26 +96,6 @@
     }
     h2.alert-emojiTXT {
         font-size: 40px;
-    }
-
-    #listaBusca {
-        /* list-style: decimal-leading-zero; */
-        list-style: none;
-    }
-    li#listaBusca {
-        width: 400px;
-    }
-    a.linkResultado {
-        color: var(--bg-01);
-    }
-    h2#parBusca {
-        font-size: 40px;
-    }
-    div#the_excerpt {
-        margin-bottom: 50px;
-    }
-    div#the_excerpt p {
-        font-size: 20px;
     }
 </style>
 
