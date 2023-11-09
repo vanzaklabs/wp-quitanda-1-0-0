@@ -58,6 +58,19 @@
         display: flex;
         align-items: center;
     }
+    @media (max-width: 600px) {
+        div#inputsFormBusca {
+            display: block;
+        }
+        input#icon-busca {
+            display: none;
+        }
+        input[type="text"] {
+            width: 100%;
+            -webkit-transition: width .35s ease-in-out;
+            transition: width .35s ease-in-out;
+        }
+    }
     input#icon-busca {
         height: 40px;
         margin: 5px 5px 5px 10px;
