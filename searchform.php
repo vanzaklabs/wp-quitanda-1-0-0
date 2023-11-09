@@ -59,10 +59,8 @@
         input#icon-busca {
             display: none;
         }
-        input[type="text"] {
-            width: 320px;
-            -webkit-transition: width .35s ease-in-out;
-            transition: width .35s ease-in-out;
+        input[type="text"]:focus {
+            width: 350px;
         }
     }
     input#icon-busca {
