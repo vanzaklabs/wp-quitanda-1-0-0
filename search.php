@@ -26,39 +26,34 @@
     <section id="sec-resultado">
 
         <?php
-
             $s = get_search_query();
-
             $args = array(
-                            's' => $s,
-                            'posts_per_page' => -1,
-                            // 'orderby' => 'comment_count',
-                            'post_status' => 'published',
-                            // 'category_name' => 'health',
-                            'post_type' => array( 'post', 'page', 'receitas')
-                        );
-
-            // The Query
+                's' => $s,
+                'posts_per_page' => -1,
+                // 'orderby' => 'comment_count',
+                'post_status' => 'published',
+                // 'category_name' => 'health',
+                'post_type' => array( 'post', 'page', 'receitas')
+            );
+            // The WP Query
             $the_query = new WP_Query( $args );
 
             if ( $the_query->have_posts() ) {
-
-                    // _e("<p id='p-resultado'>RESULTADO: " . get_query_var('s') . "</p>");
-
-                    while ( $the_query->have_posts() ) {
-                    $the_query->the_post();
+                // _e("<p id='p-resultado'>RESULTADO: " . get_query_var('s') . "</p>");
+                while ( $the_query->have_posts() ) {
+                $the_query->the_post();
         ?>
                                 
-                                    <a href="<?php the_permalink(); ?>">
-                                        <?php the_title(); ?>
-                                    </a>
-                                    <?php if (has_post_thumbnail()) : $urlCapa = get_the_post_thumbnail_url(); ?>
-                                        <?php echo '<div class="capaConteudoBusca" style="background: url(' . $urlCapa . '); background-size: cover;"></div>'; ?>
-                                    <?php endif; ?>
+        <a href="<?php the_permalink(); ?>">
+            <?php the_title(); ?>
+            <?php if (has_post_thumbnail()) : $urlCapa = get_the_post_thumbnail_url(); ?>
+                <?php echo '<div class="capaConteudoBusca" style="background: url(' . $urlCapa . '); background-size: cover;"></div>'; ?>
+            <?php endif; ?>
+        </a>
                                 
         <?php
             }
-                } else {
+        } else {
         ?>
 
         <div>
@@ -82,6 +77,8 @@
     }
     section#sec-resultado {
         margin: 20px;
+        display: grid;
+        justify-content: center;
     }
     .capaConteudoBusca {
         height: 250px;
