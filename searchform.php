@@ -1,9 +1,3 @@
-<?php
-    /*
-        Template Name: Buscar - Formulário
-    */
-?>
-
 <!-- SEARCHFORM.PHP -->
 
 <section id="busca">
@@ -66,7 +60,7 @@
             display: none;
         }
         input[type="text"] {
-            width: 100%;
+            width: 320px;
             -webkit-transition: width .35s ease-in-out;
             transition: width .35s ease-in-out;
         }
