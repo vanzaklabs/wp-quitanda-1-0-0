@@ -1286,6 +1286,7 @@ blockquote {
 
 .plyr {
     max-width: 100%!important;
+    width: 100%!important;
 }
 
 .plyr--video {
@@ -1569,3 +1570,6 @@ h1,h2 {
     text-transform: uppercase;
 }
 
+#p-anbar {
+    text-wrap: nowrap;
+}
