@@ -1573,3 +1573,12 @@ h1,h2 {
 #p-anbar {
     text-wrap: nowrap;
 }
+
+@media screen and (max-width:1000px){
+    .marquee-wrapper {
+        height: 85px;
+        letter-spacing: 1px;
+        font-family: 'Kepler Std Light', sans-serif;
+        font-kerning: none;
+    }
+}
