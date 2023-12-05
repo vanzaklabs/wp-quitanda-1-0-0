@@ -1091,7 +1091,7 @@ section#quitanda-institucional {
 
 #footer nav ul li a {
     font-size: 1.3rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-style: italic;
 }
 nav#footer_main {
