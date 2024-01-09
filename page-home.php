@@ -42,7 +42,7 @@ Template Name: Home
     <!-- TABS -->
 
     <section class="d-flex justify-center align-center flex-column p-section bg-03 " id="section-tabs">
-        <div class="w-50">
+        <!-- <div class="w-50">
             <div class="d-flex justify-between tabsnap ">
                 <button class="fonte-serifada tab  text-black" id="btntab1">
                     compre online<span class="yellow-underline"></span>
@@ -58,7 +58,7 @@ Template Name: Home
                     minha quitanda
                 </a>
             </div>
-        </div>
+        </div> -->
         <div class="container mt-5  d-flex align-center justify-center" id="tab1">
             <div class="w-50  flex-column h-80" id="tab1img">
             </div>
