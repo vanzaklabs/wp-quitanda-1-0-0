@@ -30,7 +30,7 @@
 
                 <div class="d-flex align-center" style="gap: 20px;">
                     
-                    <ul>
+                    <ul class="d-none-mobile">
                         <li>
                             <div class="text-black social-nav">
                                 <a href="mailto:gerente.pinheiros@quitanda.com">
@@ -72,7 +72,7 @@
                     </button>
 
                     <p id="p-anbar" class="text-black"><a href="mailto:gerente.pinheiros@quitanda.com" class="text-black d-none-mobile">FALE CONOSCO</a></p>
-                    
+
                 </div>
         </div>
     </div>
