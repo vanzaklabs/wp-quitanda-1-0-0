@@ -106,21 +106,21 @@ Template Name: Home
                 <div id="divMarqueeA">
                   <span class="Marquee1">
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper"><span style="font-size:100px"> • </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> • </span>gastronomia com consciência</a>
                   </span>
                 </div>
               </div>
