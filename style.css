@@ -1582,10 +1582,11 @@ h1,h2 {
 
 @media screen and (max-width:1000px){
     .marquee-wrapper {
-        height: 85px;
+        height: 20px;
         letter-spacing: 1px;
         font-family: 'Kepler Std Light', sans-serif;
         font-kerning: none;
+        display: flex;
     }
 }
 li{
