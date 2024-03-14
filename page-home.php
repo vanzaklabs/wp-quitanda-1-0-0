@@ -106,21 +106,21 @@ Template Name: Home
                 <div id="divMarqueeA">
                   <span class="Marquee1">
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                   </span>
                 </div>
               </div>
@@ -131,21 +131,21 @@ Template Name: Home
                 <div id="divMarqueeB">
                   <span class="Marquee2">
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                    <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                   </span>
                 </div>
               </div>
@@ -155,21 +155,21 @@ Template Name: Home
                     <div id="divMarqueeC">
                         <span class="Marquee3">
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
-                        <a class="h1-marquee marquee-wrapper">gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper">•gastronomia com consciência</a>
                         </span>
                     </div>
                 </div>
