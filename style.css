@@ -945,13 +945,13 @@ h1 {
     height: 122px;
 }
 
-.m-scroll.rotacionaMarqa {
+/* .m-scroll.rotacionaMarqa {
     height: 228px;
 }
 
 .m-scroll.rotacionaMarqb {
     height: 122px;
-}
+} */
 
 .marqPos {
     color: rgb(var(--text-color));
