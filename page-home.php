@@ -141,6 +141,77 @@ Template Name: Home
               <div class="m-scroll__title__INV">
                 <div id="divMarqueeB">
                   <span class="Marquee2">
+                  <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                     <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="m-scroll rotacionaMarqb">
+                <div class="m-scroll__title">
+                    <div id="divMarqueeC">
+                        <span class="Marquee3">
+                        <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                     <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                    <a class="h1-marquee marquee-wrapper">gastronomia</a>
+                    <a class="h1-marquee marquee-wrapper">com</a>
+                    <a class="h1-marquee marquee-wrapper">consciência</a>
+                        </span>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- <div class="m-scroll__INV rotacionaMarq">
+              <div class="m-scroll__title__INV">
+                <div id="divMarqueeB">
+                  <span class="Marquee2">
                     <a class="h2-marquee marquee-wrapper">o futuro é local</a>
                     <a class="h2-marquee marquee-wrapper">o futuro é local</a>
                     <a class="h2-marquee marquee-wrapper">o futuro é local</a>
@@ -175,27 +246,27 @@ Template Name: Home
                   </span>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="m-scroll rotacionaMarqb">
+            <!-- <div class="m-scroll rotacionaMarqb">
                 <div class="m-scroll__title">
-                  <div id="divMarqueeC">
-                    <span class="Marquee3">
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                      <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
-                    </span>
-                  </div>
+                    <div id="divMarqueeC">
+                        <span class="Marquee3">
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                            <a class="h3-marquee marquee-wrapper">prazer de comer bem</a>
+                        </span>
+                    </div>
                 </div>
-              </div>
+            </div> -->
           </section>
     </section>
 
