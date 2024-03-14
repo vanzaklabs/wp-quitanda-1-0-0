@@ -234,6 +234,7 @@ Template Name: Home
                 id="player"
                 playsinline
                 controls
+                autoplay
                 volume="1"
                 data-poster="<?php echo get_template_directory_uri() ?>/images/video-capa-01.png" >
                     <source
