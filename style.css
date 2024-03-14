@@ -900,6 +900,8 @@ h1 {
         font-size: 33px;
         /* margin-top: 28px; */
         /* margin-top: 50px; */
+        display: flex;
+        align-items: center;
     }
 
     .h2-marquee {
