@@ -116,6 +116,12 @@ Template Name: Home
                     <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                 </span>
                 </div>
               </div>
@@ -137,6 +143,10 @@ Template Name: Home
                     <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                     <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                    <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                   </span>
                 </div>
               </div>
@@ -145,6 +155,11 @@ Template Name: Home
                 <div class="m-scroll__title">
                     <div id="divMarqueeC">
                         <span class="Marquee3">
+                        <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
+                        <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
                         <a class="h1-marquee marquee-wrapper"><span class="bullet"> <img src="<?php echo get_template_directory_uri() ?>/images/bullet.svg" alt="">  </span>gastronomia com consciência</a>
