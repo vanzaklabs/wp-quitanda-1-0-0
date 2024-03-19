@@ -1601,3 +1601,8 @@ li{
     align-items: center;
     margin-right: 16px;
 }
+
+::selection{
+    background: #1d1d1d;
+    color: #fff;
+}
