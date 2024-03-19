@@ -19,7 +19,6 @@ const tab3 = document.getElementById('tab3');
 // ONLOAD
 
 let posicao = ancoragem.getBoundingClientRect();
-console.log(posicao);
   logo.style.width = `${sizex}px`;
   logo.style.height = `${sizex}px`;
   if (posicao.top > 180) {
@@ -29,7 +28,6 @@ console.log(posicao);
 
 window.onload = function () {
   let posicao = ancoragem.getBoundingClientRect();
-  console.log(posicao);
     logo.style.width = `${sizex}px`;
     logo.style.height = `${sizex}px`;
     if (posicao.top > 180) {
@@ -194,10 +192,6 @@ function enableScroll() {
 // ScrollSmooth
 
 // const lenis = new Lenis()
-
-// lenis.on('scroll', (e) => {
-//   console.log(e)
-// })
 
 // function raf(time) {
 //   lenis.raf(time)
